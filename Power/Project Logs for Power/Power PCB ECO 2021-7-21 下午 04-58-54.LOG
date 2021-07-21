@@ -1,0 +1,10 @@
+Added Component: Designator=B1(BatteryPin)
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/15197/getdatasheetpartid-176350-15197328.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Pin To Net: NetName=NetB2_1 Pin=B1-3
+Added Pin To Net: NetName=GND Pin=B1-4
+Change Net Name : Old Net Name=NetB2_1 New Net Name=NetB1_3
+Added Member To Class: ClassName=Power Member=Component B1 BatteryPin

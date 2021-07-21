@@ -1,0 +1,7 @@
+Added Component: Designator=S1(SW_SPDT)
+Add component (AddParameter): Name = "BuyLink"; Value = "https://shop.cpu.com.tw/product/10801/info/"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_2 Pin=S1-1
+Added Pin To Net: NetName=NetL1_1 Pin=S1-2
+Added Pin To Net: NetName=NetD2_2 Pin=S1-3
+Added Member To Class: ClassName=Power Member=Component S1 SW-SPDT
+Added Member To Class: ClassName=Power Member=Component T2 12VÃ­À£¼Ò²Õ
