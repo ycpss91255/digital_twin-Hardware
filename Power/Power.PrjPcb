@@ -105,10 +105,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVUSGESX
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Power\Design Rule Check - Power.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
