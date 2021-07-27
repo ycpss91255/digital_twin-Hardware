@@ -1,0 +1,4 @@
+AllDriveCtrl={Drive1_ctrl:motor_ctrl},{Drive2_ctrl:motor_ctrl}
+Drive_FB={Drive1:motor_FB},{Drive2:motor_FB}
+motor_ctrl=Drive_EN,MA_DIR,MA_PWM,MB_DIR,MB_PWM
+motor_FB=MA_I,MA_phaseA,MA_phaseB,MA_V,MB_I,MB_phaseA,MB_phaseB,MB_V
