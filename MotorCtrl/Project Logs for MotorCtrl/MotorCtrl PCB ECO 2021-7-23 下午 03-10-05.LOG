@@ -1,0 +1,141 @@
+Added Component: Designator=P1(PowerPin)
+Added Component: Designator=P2(XH-A 6P)
+Added Component: Designator=P3(XH-A 6P)
+Added Component: Designator=P4(XH-A 13P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R1(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "30K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "30K"; VariantName = "[No Variations]"
+Added Component: Designator=R3(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "7.5K"; VariantName = "[No Variations]"
+Added Component: Designator=R4(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "7.5K"; VariantName = "[No Variations]"
+Added Component: Designator=U1(MOTOR_DRIVER)
+Add component (AddParameter): Name = "buy_link"; Value = "https://www.ruten.com.tw/item/show?21811773783671"; VariantName = "[No Variations]"
+Added Component: Designator=U2(MBRD1035CTL)
+Add component (AddParameter): Name = "buy_link"; Value = "https://www.ruten.com.tw/item/show?21744290003226"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "datasheet"; Value = "https://datasheet.ciiva.com/905/mbrd1035ctl-d-905952.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Added Component: Designator=U3(MBRD1035CTL)
+Add component (AddParameter): Name = "buy_link"; Value = "https://www.ruten.com.tw/item/show?21744290003226"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "datasheet"; Value = "https://datasheet.ciiva.com/905/mbrd1035ctl-d-905952.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Added Component: Designator=U4(OPA4277UA)
+Add component (AddParameter): Name = "buy_link"; Value = "https://www.ruten.com.tw/item/show?22015419000992"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "datasheet"; Value = "https://datasheet.ciiva.com/27050/905643-27050822.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=12V Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=3P3 Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P1-6
+Added Pin To Net: NetName=MA1 Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=MA_phaseA Pin=P2-3
+Added Pin To Net: NetName=MA_phaseB Pin=P2-4
+Added Pin To Net: NetName=3P3 Pin=P2-5
+Added Pin To Net: NetName=MA2 Pin=P2-6
+Added Pin To Net: NetName=MB1 Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=MB_phaseA Pin=P3-3
+Added Pin To Net: NetName=MB_phaseB Pin=P3-4
+Added Pin To Net: NetName=3P3 Pin=P3-5
+Added Pin To Net: NetName=MB2 Pin=P3-6
+Added Pin To Net: NetName=MA_DIR Pin=P4-1
+Added Pin To Net: NetName=MA_PWM Pin=P4-2
+Added Pin To Net: NetName=MB_DIR Pin=P4-3
+Added Pin To Net: NetName=MB_PWM Pin=P4-4
+Added Pin To Net: NetName=Drive_EN Pin=P4-5
+Added Pin To Net: NetName=MA_phaseA Pin=P4-6
+Added Pin To Net: NetName=MA_phaseB Pin=P4-7
+Added Pin To Net: NetName=MB_phaseA Pin=P4-8
+Added Pin To Net: NetName=MB_phaseB Pin=P4-9
+Added Pin To Net: NetName=MA_V Pin=P4-10
+Added Pin To Net: NetName=MB_V Pin=P4-11
+Added Pin To Net: NetName=MA_I Pin=P4-12
+Added Pin To Net: NetName=MB_I Pin=P4-13
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=MA_V_FB Pin=R1-2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=MB_V_FB Pin=R2-2
+Added Pin To Net: NetName=MA_V_FB Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=MB_V_FB Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=MA_DIR Pin=U1-2
+Added Pin To Net: NetName=MA_PWM Pin=U1-3
+Added Pin To Net: NetName=MB_DIR Pin=U1-4
+Added Pin To Net: NetName=MB_PWM Pin=U1-5
+Added Pin To Net: NetName=Drive_EN Pin=U1-6
+Added Pin To Net: NetName=MA_I_FB Pin=U1-7
+Added Pin To Net: NetName=MB_I_FB Pin=U1-8
+Added Pin To Net: NetName=12V Pin=U1-9
+Added Pin To Net: NetName=12V Pin=U1-9
+Added Pin To Net: NetName=MA1 Pin=U1-10
+Added Pin To Net: NetName=MA1 Pin=U1-10
+Added Pin To Net: NetName=MA2 Pin=U1-11
+Added Pin To Net: NetName=MA2 Pin=U1-11
+Added Pin To Net: NetName=MB1 Pin=U1-12
+Added Pin To Net: NetName=MB1 Pin=U1-12
+Added Pin To Net: NetName=MB2 Pin=U1-13
+Added Pin To Net: NetName=MB2 Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=MA1 Pin=U2-1
+Added Pin To Net: NetName=MA2 Pin=U2-3
+Added Pin To Net: NetName=NetR1_1 Pin=U2-4
+Added Pin To Net: NetName=MB1 Pin=U3-1
+Added Pin To Net: NetName=MB2 Pin=U3-3
+Added Pin To Net: NetName=NetR2_1 Pin=U3-4
+Added Pin To Net: NetName=MA_V Pin=U4-1
+Added Pin To Net: NetName=MA_V Pin=U4-2
+Added Pin To Net: NetName=MA_V_FB Pin=U4-3
+Added Pin To Net: NetName=3P3 Pin=U4-4
+Added Pin To Net: NetName=MB_V_FB Pin=U4-5
+Added Pin To Net: NetName=MB_V Pin=U4-6
+Added Pin To Net: NetName=MB_V Pin=U4-7
+Added Pin To Net: NetName=MB_I Pin=U4-8
+Added Pin To Net: NetName=MB_I Pin=U4-9
+Added Pin To Net: NetName=MB_I_FB Pin=U4-10
+Added Pin To Net: NetName=GND Pin=U4-11
+Added Pin To Net: NetName=MA_I_FB Pin=U4-12
+Added Pin To Net: NetName=MA_I Pin=U4-13
+Added Pin To Net: NetName=MA_I Pin=U4-14
+Added Member To Class: ClassName=MotorCtrl Member=Component P1 PowerPin
+Added Member To Class: ClassName=MotorCtrl Member=Component P2 MotorPin
+Added Member To Class: ClassName=MotorCtrl Member=Component P3 MotorPin
+Added Member To Class: ClassName=MotorCtrl Member=Component P4 Ctrl&FB_Pin
+Added Member To Class: ClassName=MotorCtrl Member=Component R1 Res1
+Added Member To Class: ClassName=MotorCtrl Member=Component R2 Res1
+Added Member To Class: ClassName=MotorCtrl Member=Component R3 Res1
+Added Member To Class: ClassName=MotorCtrl Member=Component R4 Res1
+Added Member To Class: ClassName=MotorCtrl Member=Component U1 17A雙路馬達驅動模組
+Added Member To Class: ClassName=MotorCtrl Member=Component U2 MBRD1035CTL
+Added Member To Class: ClassName=MotorCtrl Member=Component U3 MBRD1035CTL
+Added Member To Class: ClassName=MotorCtrl Member=Component U4 OPA4277UA
+Added Room: Name=MotorCtrl
