@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=NetS2_2 Pin=T2-1
-Added Pin To Net: NetName=GND Pin=T2-2
-Added Pin To Net: NetName=NetP1_3 Pin=T2-3
-Added Pin To Net: NetName=NetP1_4 Pin=T2-4
-Added Member To Class: ClassName=Power Member=Component T2 12VÃ­À£¼Ò²Õ
-Added Room: Name=Power
