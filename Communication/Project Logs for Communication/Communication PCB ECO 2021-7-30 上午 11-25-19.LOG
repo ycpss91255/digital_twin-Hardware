@@ -1,0 +1,46 @@
+Added Component: Designator=P1(PowerPin)
+Added Component: Designator=P4(HDR1X10)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P6(HDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P8(HDR2X13)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=3P3 Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P1-6
+Added Pin To Net: NetName=3P3 Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=IMU_SCL Pin=P4-3
+Added Pin To Net: NetName=IMU_SDA Pin=P4-4
+Added Pin To Net: NetName=5V Pin=P6-1
+Added Pin To Net: NetName=GND Pin=P6-2
+Added Pin To Net: NetName=3P3 Pin=P8-1
+Added Pin To Net: NetName=MA_phaseA Pin=P8-10
+Added Pin To Net: NetName=MC_phaseA Pin=P8-11
+Added Pin To Net: NetName=MA_phaseB Pin=P8-12
+Added Pin To Net: NetName=MC_phaseB Pin=P8-13
+Added Pin To Net: NetName=MB_phaseA Pin=P8-14
+Added Pin To Net: NetName=MD_phaseA Pin=P8-15
+Added Pin To Net: NetName=MB_phaseB Pin=P8-16
+Added Pin To Net: NetName=MD_phaseB Pin=P8-17
+Added Pin To Net: NetName=MA_V Pin=P8-18
+Added Pin To Net: NetName=MC_V Pin=P8-19
+Added Pin To Net: NetName=MB_V Pin=P8-20
+Added Pin To Net: NetName=MD_V Pin=P8-21
+Added Pin To Net: NetName=MA_I Pin=P8-22
+Added Pin To Net: NetName=MC_I Pin=P8-23
+Added Pin To Net: NetName=MB_I Pin=P8-24
+Added Pin To Net: NetName=MD_I Pin=P8-25
+Added Pin To Net: NetName=GND Pin=P8-26
+Added Member To Class: ClassName=Communication Member=Component P1 PowerPin
+Added Member To Class: ClassName=Communication Member=Component P4 IMU排針
+Added Member To Class: ClassName=Communication Member=Component P6 樹梅派供電排針
+Added Member To Class: ClassName=Communication Member=Component P8 GPIO_2(JP3)
+Added Room: Name=Communication

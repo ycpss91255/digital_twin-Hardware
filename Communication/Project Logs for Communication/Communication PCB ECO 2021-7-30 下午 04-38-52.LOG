@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=3P3 Pin=P8-1
+Removed Pin From Net: NetName=GND Pin=P8-26
+Change Component Comment : Designator=P? Old Comment=Header 4 New Comment=Power Pin
+Change Component Comment : Designator=P6 Old Comment=¾ð±ö¬£¨Ñ¹q±Æ°w New Comment=¾ð±ö¬£¨Ñ¹q´¡®y
+Added Component: Designator=P?(HDR2X20)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P?(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P?-1
+Added Pin To Net: NetName=MA_DIR Pin=P?-2
+Added Pin To Net: NetName=UART_TX Pin=P?-2
+Added Pin To Net: NetName=UART_RX Pin=P?-3
+Added Pin To Net: NetName=UART_RX Pin=P?-3
+Added Pin To Net: NetName=MA_PWM Pin=P?-4
+Added Pin To Net: NetName=UART_TX Pin=P?-5
+Added Pin To Net: NetName=MB_DIR Pin=P?-6
+Added Pin To Net: NetName=IMU_SCL Pin=P?-7
+Added Pin To Net: NetName=MB_PWM Pin=P?-8
+Added Pin To Net: NetName=IMU_SDA Pin=P?-9
+Added Pin To Net: NetName=Drive1_EN Pin=P?-10
+Added Pin To Net: NetName=5V Pin=P?-11
+Added Pin To Net: NetName=GND Pin=P?-12
+Added Pin To Net: NetName=MC_DIR Pin=P?-14
+Added Pin To Net: NetName=MC_PWM Pin=P?-16
+Added Pin To Net: NetName=MD_DIR Pin=P?-18
+Added Pin To Net: NetName=MD_PWM Pin=P?-20
+Added Pin To Net: NetName=Drive2_EN Pin=P?-22
+Added Pin To Net: NetName=GND Pin=P?-30
+Added Member To Class: ClassName=Communication Member=Component P? GPIO_1(JP2)
+Added Member To Class: ClassName=Communication Member=Component P? UART ´¡®y
