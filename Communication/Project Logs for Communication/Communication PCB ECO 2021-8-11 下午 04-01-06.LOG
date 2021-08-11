@@ -1,0 +1,83 @@
+Added Component: Designator=D1(SR540)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "DO-214-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DO-214-AB/SMC; 2 C-Bend Leads; Body 7.9 x 5.9 mm, inc. leads (LxW)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SMC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Sep-1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P1(KF2EDGR-5.08 4P)
+Added Component: Designator=P4(MPU9250)
+Added Component: Designator=P5(B3B-XH-A)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P6(B2B-XH-A)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P7(HDR2X20)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P8(HDR2X13)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=D1-1
+Added Pin To Net: NetName=3P3 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=5V Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=3P3 Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=IMU_SCL Pin=P4-3
+Added Pin To Net: NetName=IMU_SDA Pin=P4-4
+Added Pin To Net: NetName=UART_RX Pin=P5-1
+Added Pin To Net: NetName=UART_TX Pin=P5-2
+Added Pin To Net: NetName=GND Pin=P5-3
+Added Pin To Net: NetName=5V Pin=P6-1
+Added Pin To Net: NetName=GND Pin=P6-2
+Added Pin To Net: NetName=MA_DIR Pin=P7-2
+Added Pin To Net: NetName=UART_RX Pin=P7-3
+Added Pin To Net: NetName=MA_PWM Pin=P7-4
+Added Pin To Net: NetName=UART_TX Pin=P7-5
+Added Pin To Net: NetName=MB_DIR Pin=P7-6
+Added Pin To Net: NetName=IMU_SCL Pin=P7-7
+Added Pin To Net: NetName=MB_PWM Pin=P7-8
+Added Pin To Net: NetName=IMU_SDA Pin=P7-9
+Added Pin To Net: NetName=Drive1_EN Pin=P7-10
+Added Pin To Net: NetName=5V Pin=P7-11
+Added Pin To Net: NetName=GND Pin=P7-12
+Added Pin To Net: NetName=MA_phaseA Pin=P7-14
+Added Pin To Net: NetName=MA_phaseB Pin=P7-16
+Added Pin To Net: NetName=MB_phaseA Pin=P7-18
+Added Pin To Net: NetName=MB_phaseB Pin=P7-20
+Added Pin To Net: NetName=MC_DIR Pin=P7-22
+Added Pin To Net: NetName=MC_PWM Pin=P7-24
+Added Pin To Net: NetName=MD_DIR Pin=P7-26
+Added Pin To Net: NetName=MD_PWM Pin=P7-28
+Added Pin To Net: NetName=GND Pin=P7-30
+Added Pin To Net: NetName=Drive2_EN Pin=P7-32
+Added Pin To Net: NetName=MC_phaseA Pin=P7-34
+Added Pin To Net: NetName=MC_phaseB Pin=P7-36
+Added Pin To Net: NetName=MD_phaseA Pin=P7-38
+Added Pin To Net: NetName=MD_phaseB Pin=P7-40
+Added Pin To Net: NetName=MA_V Pin=P8-18
+Added Pin To Net: NetName=MC_V Pin=P8-19
+Added Pin To Net: NetName=MB_V Pin=P8-20
+Added Pin To Net: NetName=MD_V Pin=P8-21
+Added Pin To Net: NetName=MA_I Pin=P8-22
+Added Pin To Net: NetName=MC_I Pin=P8-23
+Added Pin To Net: NetName=MB_I Pin=P8-24
+Added Pin To Net: NetName=MD_I Pin=P8-25
+Added Pin To Net: NetName=GND Pin=P8-26
+Added Member To Class: ClassName=Communication Member=Component D1 SR540
+Added Member To Class: ClassName=Communication Member=Component P1 KFDGR-5.08 4P
+Added Member To Class: ClassName=Communication Member=Component P4 MPU9250
+Added Member To Class: ClassName=Communication Member=Component P5 B3B-XH-A
+Added Member To Class: ClassName=Communication Member=Component P6 B2B-XH-A
+Added Member To Class: ClassName=Communication Member=Component P7 GPIO_1(JP2)
+Added Member To Class: ClassName=Communication Member=Component P8 GPIO_2(JP3)
+Added Room: Name=Communication

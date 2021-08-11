@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=MA_phaseA Pin=P8-10
+Removed Pin From Net: NetName=MC_phaseA Pin=P8-11
+Removed Pin From Net: NetName=MA_phaseB Pin=P8-12
+Removed Pin From Net: NetName=MC_phaseB Pin=P8-13
+Removed Pin From Net: NetName=MB_phaseA Pin=P8-14
+Removed Pin From Net: NetName=MD_phaseA Pin=P8-15
+Removed Pin From Net: NetName=MB_phaseB Pin=P8-16
+Removed Pin From Net: NetName=MD_phaseB Pin=P8-17
+Removed Pin From Net: NetName=GND Pin=P?-1
+Removed Pin From Net: NetName=UART_RX Pin=P?-3
+Removed Pin From Net: NetName=MC_DIR Pin=P?-14
+Removed Pin From Net: NetName=MC_PWM Pin=P?-16
+Removed Pin From Net: NetName=MD_DIR Pin=P?-18
+Removed Pin From Net: NetName=MD_PWM Pin=P?-20
+Removed Pin From Net: NetName=Drive2_EN Pin=P?-22
+Change Component Footprint: Designator=P6 Old Footprint=HDR1X2 New Footprint=B2B-XH-A
+Change Component Footprint: Designator=P? Old Footprint=HDR1X3 New Footprint=B3B-XH-A
+Change Component Footprint: Designator=P4 Old Footprint=HDR1X10 New Footprint=MPU9250
+Change Component Comment : Designator=P4 Old Comment=IMU±Æ°w New Comment=MPU9250
+Change Component Comment : Designator=P? Old Comment=UART ´¡®y New Comment=B3B-XH-A
+Change Component Comment : Designator=P6 Old Comment=¾ð±ö¬£¨Ñ¹q´¡®y New Comment=B2B-XH-A
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Change Component Designator: OldDesignator=P? NewDesignator=P7
+Change component parameters: Designator = "P4" ("P4"); Footprint = "HDR1X10"; UniqueID = "\CTCNEKUB" ("\CTCNEKUB")
+Added Component: Designator=D1(SR540)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "DO-214-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DO-214-AB/SMC; 2 C-Bend Leads; Body 7.9 x 5.9 mm, inc. leads (LxW)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SMC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Sep-1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P1(KF2EDGR-5.08 4P)
+Added Pin To Net: NetName=5V Pin=D1-1
+Added Pin To Net: NetName=3P3 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=5V Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=UART_RX Pin=P5-1
+Added Pin To Net: NetName=GND Pin=P5-3
+Added Pin To Net: NetName=MA_phaseA Pin=P7-14
+Added Pin To Net: NetName=MA_phaseB Pin=P7-16
+Added Pin To Net: NetName=MB_phaseA Pin=P7-18
+Added Pin To Net: NetName=MB_phaseB Pin=P7-20
+Added Pin To Net: NetName=MC_DIR Pin=P7-22
+Added Pin To Net: NetName=MC_PWM Pin=P7-24
+Added Pin To Net: NetName=MD_DIR Pin=P7-26
+Added Pin To Net: NetName=MD_PWM Pin=P7-28
+Added Pin To Net: NetName=Drive2_EN Pin=P7-32
+Added Pin To Net: NetName=MC_phaseA Pin=P7-34
+Added Pin To Net: NetName=MC_phaseB Pin=P7-36
+Added Pin To Net: NetName=MD_phaseA Pin=P7-38
+Added Pin To Net: NetName=MD_phaseB Pin=P7-40
+Added Pin To Net: NetName=GND Pin=P8-26
+Added Member To Class: ClassName=Communication Member=Component D1 SR540
+Added Member To Class: ClassName=Communication Member=Component P1 KFDGR-5.08 4P
+Added Member To Class: ClassName=Communication Member=Component P5 B3B-XH-A
+Added Room: Name=Communication
