@@ -1,0 +1,8 @@
+"LIBRARYREFERENCE","FOOTPRINT1","BUYLINK","COMMENT","COMPONENTLINK3DESCRIPTION","COMPONENTLINK3URL","DATASHEEP","DATASHEET","SHEETPART","DESIGNATOR","DESCRIPTION"
+"BatteryPin","KF2EDGR-5.08 4P","","KF2EDGR-5.08 4P","DataSheet","https://datasheet.ciiva.com/15197/getdatasheetpartid-176350-15197328.pdf?src-supplier=Verical","","","*","P?","電池輸入接腳"
+"M3_Hole","M3_Hole","","*","","","","","*","MH?","M3 孔洞"
+"PWR2.5","PWR2.5","","*","","","","","*","J?","DC 母座 2.5孔徑"
+"PowerDisplay","B2B-XH-A","https://www.ruten.com.tw/item/show?21526913448375","B2B-XH-A","","","","https://datasheet.ciiva.com/26894/getdatasheetpartid-640357-26894434.pdf?src-supplier=Verical","*","L?","電壓顯示器"
+"PowerPin","KF2EDGR-5.08 6P","","KF2EDGR-5.08 6P","","","https://datasheet.ciiva.com/15197/getdatasheetpartid-176350-15197328.pdf?src-supplier=Verical","","*","P?","電源輸出接腳"
+"PowerSupply 3P","","https://www.ruten.com.tw/item/show?21817939184609","*","","","","","*","T?","超小型穩壓模組"
+"PowerSupply 4P","","","*","","","","","*","T?","電壓模組"
