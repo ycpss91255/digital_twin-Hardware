@@ -3,8 +3,4 @@ Version=1.0
 [Project1]
 ProjectPath=OWMR\OWMR.PrjPcb
 [Project2]
-ProjectPath=Power\Power.PrjPcb
-[Project3]
-ProjectPath=MotorCtrl\MotorCtrl.PrjPcb
-[Project4]
-ProjectPath=Communication\Communication.PrjPcb
+ProjectPath=sim_test\sim_test.PrjPcb
