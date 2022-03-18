@@ -2,14 +2,14 @@ SDF: 1.0
 TotalPoints: 420
 #ChartSetupsBegin
 Chart: Operating Point
-ChartId: OPCNDTKR
+ChartId: UNFCHJKS
 ChartView: 4
 ChartTitle: Operating Point
 ChartBackgroundColor: 4210752
 ChartForegroundColor: 13421772
 ChartGridColor: 5789784
 ChartXDivisions: 4
-ChartXOffset: -2.00000000000000E+000
+ChartXOffset: 0.00000000000000E+000
 ChartXDivSize: 1.00000000000000E+000
 ChartXMin: 0.00000000000000E+000
 ChartXMax: 0.00000000000000E+000
@@ -66,7 +66,7 @@ ChartCursorBYVal: 0.00000000000000E+000
 ChartActiveCellIndex: 0
 ChartTopCellIndex: 0
 Chart: DC Sweep
-ChartId: EOKWGXNE
+ChartId: WLRYFGPE
 ChartView: 4
 ChartTitle: DC Sweep
 ChartBackgroundColor: 4210752
@@ -166,7 +166,7 @@ ChartCursorBYVal: 0.00000000000000E+000
 ChartActiveCellIndex: 0
 ChartTopCellIndex: 0
 Chart: Transient Analysis
-ChartId: ECJOLUAQ
+ChartId: VDMQGGWY
 ChartView: 4
 ChartTitle: Transient Analysis
 ChartBackgroundColor: 4210752
@@ -266,7 +266,7 @@ ChartCursorBYVal: 0.00000000000000E+000
 ChartActiveCellIndex: 0
 ChartTopCellIndex: 0
 Chart: AC Analysis
-ChartId: CKQOIAPI
+ChartId: UKJVDHXV
 ChartView: 4
 ChartTitle: AC Analysis
 ChartBackgroundColor: 4210752
@@ -369,7 +369,7 @@ ActiveChartName: AC Analysis
 FilteredWavesBlend: 80
 #ChartSetupsEnd
 Chart: Operating Point
-ChartId: OPCNDTKR
+ChartId: UNFCHJKS
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 0.00000000000000E+000
@@ -444,7 +444,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    göM:
+    göM∫
 Wave: i(u1.e1)
 WaveYUnitStr: A
 WaveHint: 
@@ -644,7 +644,7 @@ WaveType: 0
 WaveDataStart
     q=.A
 Chart: DC Sweep
-ChartId: EOKWGXNE
+ChartId: WLRYFGPE
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 1.00000000000000E-006
@@ -677,7 +677,7 @@ WaveIndependent: TRUE
 WaveDataStart
  pâ0 pâ0XÂÿ3XÂÿ3x“W4x“W4"ô°4"ô°4I◊4I◊4w|5w|5jT!5jT!5],<5],<5PW5PW5C‹q5C‹q5
 Chart: Transient Analysis
-ChartId: ECJOLUAQ
+ChartId: VDMQGGWY
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 5.00000000000000E-006
@@ -710,7 +710,7 @@ WaveIndependent: TRUE
 WaveDataStart
         _p	0_p	0_pâ0_pâ0_p	1_p	1_pâ1_pâ1_p	2_p	2_pâ2_pâ2_p	3_p	3_pâ3_pâ3_p	4_p	4*–t4*–t4˙∞4˙∞4ﬂ«Â4ﬂ«Â4‚ª5‚ª5’ì(5’ì(5«kC5«kC5∫C^5∫C^5≠y5≠y5–˘â5–˘â5…eó5…eó5¬—§5¬—§5º=≤5º=≤5µ©ø5µ©ø5ÆÕ5ÆÕ5ßÅ⁄5ßÅ⁄5°ÌÁ5°ÌÁ5öYı5öYı5 b6 b6∆6∆6√Œ6√Œ6¿Ñ6¿Ñ6º:6º:6π"6π"6∂¶)6∂¶)6≤\06≤\06Ø76Ø76¨»=6¨»=6®~D6®~D6•4K6•4K6°ÍQ6°ÍQ6û†X6û†X6õV_6õV_6óf6óf6î¬l6î¬l6ëxs6ëxs6ç.z6ç.z6ErÄ6ErÄ6CÕÉ6CÕÉ6B(á6B(á6@Éä6@Éä6>ﬁç6>ﬁç6=9ë6=9ë6;îî6;îî69Ôó69Ôó68Jõ68Jõ66•û66•û64 ¢64 ¢63[•63[•6¨≈ß6¨≈ß6
 Chart: AC Analysis
-ChartId: CKQOIAPI
+ChartId: UKJVDHXV
 ChartShow: TRUE
 ChartXMinReal: 3.00000000000000E+000
 ChartXMaxReal: 9.00000000000000E+000
