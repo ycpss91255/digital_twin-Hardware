@@ -1,8 +1,8 @@
 SDF: 1.0
-TotalPoints: 420
+TotalPoints: 1051
 #ChartSetupsBegin
 Chart: Operating Point
-ChartId: UNFCHJKS
+ChartId: MMWGTKDE
 ChartView: 4
 ChartTitle: Operating Point
 ChartBackgroundColor: 4210752
@@ -52,6 +52,12 @@ ChartDeltaItem: 0
 WaveName: V(NetR6_1)
 WaveEq: V(NetR6_1)
 WaveYUnitStr: V
+WaveName: V(NetR4_2)
+WaveEq: V(NetR4_2)
+WaveYUnitStr: V
+WaveName: V(NetR3_1)
+WaveEq: V(NetR3_1)
+WaveYUnitStr: V
 WaveName: V(NetR1_2)
 WaveEq: V(NetR1_2)
 WaveYUnitStr: V
@@ -66,7 +72,7 @@ ChartCursorBYVal: 0.00000000000000E+000
 ChartActiveCellIndex: 0
 ChartTopCellIndex: 0
 Chart: DC Sweep
-ChartId: WLRYFGPE
+ChartId: IEEGXGAR
 ChartView: 4
 ChartTitle: DC Sweep
 ChartBackgroundColor: 4210752
@@ -121,22 +127,30 @@ CellXGrid: TRUE
 CellYGrid: TRUE
 CellMinorGrid: TRUE
 CellGridStyle: 0
-CellAxisDivisions: 8
+CellAxisDivisions: 10
 CellAxisLabel: 
 CellAxisUnits: 
 CellAxisAutoMin: TRUE
 CellAxisAutoMax: TRUE
 CellAxisAutoDiv: TRUE
 CellAxisAutoUnits: TRUE
-CellAxisDivSize: 1.00000000000000E-001
-CellAxisOffset: -2.90000000000000E+000
+CellAxisDivSize: 1.00000000000000E+000
+CellAxisOffset: -7.00000000000000E+000
 WaveName: V(NetR6_1)
 WaveEq: V(NetR6_1)
 WaveColor: 5793220
 WaveYUnitStr: V
+WaveName: V(NetR4_2)
+WaveEq: V(NetR4_2)
+WaveColor: 14580346
+WaveYUnitStr: V
+WaveName: V(NetR3_1)
+WaveEq: V(NetR3_1)
+WaveColor: 6403425
+WaveYUnitStr: V
 WaveName: V(NetR1_2)
 WaveEq: V(NetR1_2)
-WaveColor: 14580346
+WaveColor: 12410045
 WaveYUnitStr: V
 CellSelectedAxis: 0
 CellXAxisDivisions: 10
@@ -166,7 +180,7 @@ ChartCursorBYVal: 0.00000000000000E+000
 ChartActiveCellIndex: 0
 ChartTopCellIndex: 0
 Chart: Transient Analysis
-ChartId: VDMQGGWY
+ChartId: GPGYWFYA
 ChartView: 4
 ChartTitle: Transient Analysis
 ChartBackgroundColor: 4210752
@@ -221,22 +235,30 @@ CellXGrid: TRUE
 CellYGrid: TRUE
 CellMinorGrid: TRUE
 CellGridStyle: 0
-CellAxisDivisions: 8
+CellAxisDivisions: 10
 CellAxisLabel: 
 CellAxisUnits: 
 CellAxisAutoMin: TRUE
 CellAxisAutoMax: TRUE
 CellAxisAutoDiv: TRUE
 CellAxisAutoUnits: TRUE
-CellAxisDivSize: 1.00000000000000E-001
-CellAxisOffset: -2.90000000000000E+000
+CellAxisDivSize: 1.00000000000000E+000
+CellAxisOffset: -7.00000000000000E+000
 WaveName: V(NetR6_1)
 WaveEq: V(NetR6_1)
 WaveColor: 5793220
 WaveYUnitStr: V
+WaveName: V(NetR4_2)
+WaveEq: V(NetR4_2)
+WaveColor: 14580346
+WaveYUnitStr: V
+WaveName: V(NetR3_1)
+WaveEq: V(NetR3_1)
+WaveColor: 6403425
+WaveYUnitStr: V
 WaveName: V(NetR1_2)
 WaveEq: V(NetR1_2)
-WaveColor: 14580346
+WaveColor: 12410045
 WaveYUnitStr: V
 CellSelectedAxis: 0
 CellXAxisDivisions: 10
@@ -266,14 +288,14 @@ ChartCursorBYVal: 0.00000000000000E+000
 ChartActiveCellIndex: 0
 ChartTopCellIndex: 0
 Chart: AC Analysis
-ChartId: UKJVDHXV
+ChartId: ODYUPNXQ
 ChartView: 4
 ChartTitle: AC Analysis
 ChartBackgroundColor: 4210752
 ChartForegroundColor: 13421772
 ChartGridColor: 5789784
 ChartXDivisions: 6
-ChartXOffset: 3.00000000000000E+000
+ChartXOffset: 0.00000000000000E+000
 ChartXDivSize: 1.00000000000000E+000
 ChartXMin: 3.00000000000000E+000
 ChartXMax: 9.00000000000000E+000
@@ -321,22 +343,30 @@ CellXGrid: TRUE
 CellYGrid: TRUE
 CellMinorGrid: TRUE
 CellGridStyle: 0
-CellAxisDivisions: 8
+CellAxisDivisions: 4
 CellAxisLabel: 
 CellAxisUnits: 
 CellAxisAutoMin: TRUE
 CellAxisAutoMax: TRUE
 CellAxisAutoDiv: TRUE
 CellAxisAutoUnits: TRUE
-CellAxisDivSize: 1.00000000000000E-002
-CellAxisOffset: -2.50000000000000E-001
+CellAxisDivSize: 1.00000000000000E+000
+CellAxisOffset: 0.00000000000000E+000
 WaveName: V(NetR6_1)
 WaveEq: V(NetR6_1)
 WaveColor: 5793220
 WaveYUnitStr: V
+WaveName: V(NetR4_2)
+WaveEq: V(NetR4_2)
+WaveColor: 14580346
+WaveYUnitStr: V
+WaveName: V(NetR3_1)
+WaveEq: V(NetR3_1)
+WaveColor: 6403425
+WaveYUnitStr: V
 WaveName: V(NetR1_2)
 WaveEq: V(NetR1_2)
-WaveColor: 14580346
+WaveColor: 12410045
 WaveYUnitStr: V
 CellSelectedAxis: 0
 CellXAxisDivisions: 6
@@ -348,7 +378,7 @@ CellXAxisAutoDiv: TRUE
 CellXAxisAutoLabel TRUE
 CellXAxisAutoUnits: TRUE
 CellXAxisDivSize: 1.00000000000000E+000
-CellXAxisOffset: 3.00000000000000E+000
+CellXAxisOffset: 0.00000000000000E+000
 CellXAxisMin: 3.00000000000000E+000
 CellXAxisMax: 9.00000000000000E+000
 CellXAxisScaleMode: 1
@@ -369,7 +399,7 @@ ActiveChartName: AC Analysis
 FilteredWavesBlend: 80
 #ChartSetupsEnd
 Chart: Operating Point
-ChartId: UNFCHJKS
+ChartId: MMWGTKDE
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 0.00000000000000E+000
@@ -382,15 +412,6 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     33S@
-Wave: V(12v)
-WaveYUnitStr: V
-WaveHint: 
-WavePoints: 1
-WaveIsXComplex: FALSE
-WaveIsYComplex: FALSE
-WaveType: 0
-WaveDataStart
-      @A
 Wave: i(r1)
 WaveYUnitStr: A
 WaveHint: 
@@ -399,16 +420,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    I¹v9
-Wave: i(r2)
-WaveYUnitStr: A
-WaveHint: 
-WavePoints: 1
-WaveIsXComplex: FALSE
-WaveIsYComplex: FALSE
-WaveType: 0
-WaveDataStart
-    I¹v9
+    gšMº
 Wave: i(r3)
 WaveYUnitStr: A
 WaveHint: 
@@ -436,7 +448,7 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     Å)b9
-Wave: i(r?)
+Wave: i(rshunt.netv?_2)
 WaveYUnitStr: A
 WaveHint: 
 WavePoints: 1
@@ -444,7 +456,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    gšMº
+        
 Wave: i(u1.e1)
 WaveYUnitStr: A
 WaveHint: 
@@ -489,7 +501,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    ]¤…º
+    gšMº
 Wave: i(v2)
 WaveYUnitStr: A
 WaveHint: 
@@ -499,6 +511,15 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     33SÀ
+Wave: i(v?)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+        
 Wave: v(netr1_2)
 WaveYUnitStr: V
 WaveHint: 
@@ -508,7 +529,7 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     ¦¥%@
-Wave: v(netr3_2)
+Wave: v(netr3_1)
 WaveYUnitStr: V
 WaveHint: 
 WavePoints: 1
@@ -516,7 +537,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    ¦¥%@
+      @A
 Wave: v(netr4_2)
 WaveYUnitStr: V
 WaveHint: 
@@ -535,6 +556,24 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     "3S@
+Wave: v(netv?_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+        
+Wave: v(netv?_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+        
 Wave: p(r1)
 WaveYUnitStr: W
 WaveHint: 
@@ -543,16 +582,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    ²!;
-Wave: p(r2)
-WaveYUnitStr: W
-WaveHint: 
-WavePoints: 1
-WaveIsXComplex: FALSE
-WaveIsYComplex: FALSE
-WaveType: 0
-WaveDataStart
-    ¥:
+    	;
 Wave: p(r3)
 WaveYUnitStr: W
 WaveHint: 
@@ -580,7 +610,7 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     ‰ù 9
-Wave: p(r?)
+Wave: p(rshunt.netv?_2)
 WaveYUnitStr: W
 WaveHint: 
 WavePoints: 1
@@ -588,7 +618,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    	;
+        
 Wave: p(u1.e1)
 WaveYUnitStr: W
 WaveHint: 
@@ -633,7 +663,7 @@ WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    ‹vH<
+    Í3<
 Wave: p(v2)
 WaveYUnitStr: W
 WaveHint: 
@@ -643,8 +673,17 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
     q=.A
+Wave: p(v?)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+        
 Chart: DC Sweep
-ChartId: WLRYFGPE
+ChartId: IEEGXGAR
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 1.00000000000000E-006
@@ -657,6 +696,24 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
  p‰0¦¥%@XåØ3¦¥%@xÒW4¦¥%@"™¡4¦¥%@I×4¦¥%@w|5¦¥%@jT!5¦¥%@],<5¦¥%@PW5¦¥%@CÜq5¦¥%@
+Wave: v(netr3_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 10
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+ p‰0  @AXåØ3  @AxÒW4  @A"™¡4  @AI×4  @Aw|5  @AjT!5  @A],<5  @APW5  @ACÜq5  @A
+Wave: v(netr4_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 10
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+ p‰0˜¥%@XåØ3˜¥%@xÒW4˜¥%@"™¡4˜¥%@I×4˜¥%@w|5˜¥%@jT!5˜¥%@],<5˜¥%@PW5˜¥%@CÜq5˜¥%@
 Wave: v(netr6_1)
 WaveYUnitStr: V
 WaveHint: 
@@ -677,40 +734,70 @@ WaveIndependent: TRUE
 WaveDataStart
  p‰0 p‰0XåØ3XåØ3xÒW4xÒW4"™¡4"™¡4I×4I×4w|5w|5jT!5jT!5],<5],<5PW5PW5CÜq5CÜq5
 Chart: Transient Analysis
-ChartId: VDMQGGWY
+ChartId: GPGYWFYA
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 5.00000000000000E-006
 Wave: v(netr1_2)
 WaveYUnitStr: V
 WaveHint: 
-WavePoints: 59
+WavePoints: 133
 WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    ¦¥%@_p	0¦¥%@_p‰0¦¥%@_p	1¦¥%@_p‰1¦¥%@_p	2¦¥%@_p‰2¦¥%@_p	3¦¥%@_p‰3¦¥%@_p	4¦¥%@*Ğt4¦¥%@ú°4¦¥%@ßÇå4¦¥%@â»5¦¥%@Õ“(5¦¥%@ÇkC5¦¥%@ºC^5¦¥%@­y5¦¥%@Ğù‰5¦¥%@Ée—5¦¥%@ÂÑ¤5¦¥%@¼=²5¦¥%@µ©¿5¦¥%@®Í5¦¥%@§Ú5¦¥%@¡íç5¦¥%@šYõ5¦¥%@Êb6¦¥%@Æ6¦¥%@ÃÎ6¦¥%@À„6¦¥%@¼:6¦¥%@¹ğ"6¦¥%@¶¦)6¦¥%@²\06¦¥%@¯76¦¥%@¬È=6¦¥%@¨~D6¦¥%@¥4K6¦¥%@¡êQ6¦¥%@ X6¦¥%@›V_6¦¥%@—f6¦¥%@”Âl6¦¥%@‘xs6¦¥%@.z6¦¥%@Er€6¦¥%@CÍƒ6¦¥%@B(‡6¦¥%@@ƒŠ6¦¥%@>Ş6¦¥%@=9‘6¦¥%@;””6¦¥%@9ï—6¦¥%@8J›6¦¥%@6¥6¦¥%@4 ¢6¦¥%@3[¥6¦¥%@¬Å§6¦¥%@
+    ¦¥%@ÿæÛ/¦¥%@ÿæ[0¦¥%@ÿæÛ0¦¥%@ÿæ[1¦¥%@ÿæÛ1¦¥%@ÿæ[2¦¥%@ÿæÛ2¦¥%@ÿæ[3¦¥%@»ÙÃ3¦¥%@ûß4¦¥%@Ó74¦¥%@7Æb4¦¥%@ªÜ†4¦¥%@9Vœ4¦¥%@ÈÏ±4¦¥%@WIÇ4¦¥%@æÂÜ4¦¥%@u<ò4¦¥%@Û5¦¥%@É—5¦¥%@‘T5¦¥%@X$5¦¥%@ Î.5¦¥%@çŠ95¦¥%@®GD5¦¥%@vO5¦¥%@=ÁY5¦¥%@~d5¦¥%@Ì:o5¦¥%@”÷y5¦¥%@.Z‚5¦¥%@‘¸‡5¦¥%@õ5¦¥%@Yu’5¦¥%@¼Ó—5¦¥%@ 25¦¥%@„¢5¦¥%@èî§5¦¥%@KM­5¦¥%@¯«²5¦¥%@
+¸5¦¥%@vh½5¦¥%@ÚÆÂ5¦¥%@>%È5¦¥%@¢ƒÍ5¦¥%@âÒ5¦¥%@i@Ø5¦¥%@Íİ5¦¥%@1ıâ5¦¥%@”[è5¦¥%@ø¹í5¦¥%@\ó5¦¥%@¿vø5¦¥%@#Õı5¦¥%@Ã™6¦¥%@õH6¦¥%@'ø6¦¥%@Y§	6¦¥%@‹V6¦¥%@½6¦¥%@ï´6¦¥%@ d6¦¥%@R6¦¥%@„Â6¦¥%@¶q6¦¥%@è 6¦¥%@Ğ!6¦¥%@L$6¦¥%@}.'6¦¥%@¯İ)6¦¥%@áŒ,6¦¥%@</6¦¥%@Eë16¦¥%@wš46¦¥%@©I76¦¥%@Úø96¦¥%@¨<6¦¥%@>W?6¦¥%@pB6¦¥%@¢µD6¦¥%@ÔdG6¦¥%@J6¦¥%@8ÃL6¦¥%@irO6¦¥%@›!R6¦¥%@ÍĞT6¦¥%@ÿW6¦¥%@1/Z6¦¥%@cŞ\6¦¥%@•_6¦¥%@Æ<b6¦¥%@øëd6¦¥%@*›g6¦¥%@\Jj6¦¥%@ùl6¦¥%@À¨o6¦¥%@òWr6¦¥%@#u6¦¥%@U¶w6¦¥%@‡ez6¦¥%@¹}6¦¥%@ëÃ6¦¥%@96¦¥%@'‘‚6¦¥%@Àèƒ6¦¥%@Y@…6¦¥%@ò—†6¦¥%@‹ï‡6¦¥%@$G‰6¦¥%@½Š6¦¥%@Vö‹6¦¥%@ïM6¦¥%@ˆ¥6¦¥%@!ı6¦¥%@ºT‘6¦¥%@R¬’6¦¥%@ë”6¦¥%@„[•6¦¥%@³–6¦¥%@¶
+˜6¦¥%@Ob™6¦¥%@è¹š6¦¥%@œ6¦¥%@i6¦¥%@³À6¦¥%@L 6¦¥%@åo¡6¦¥%@~Ç¢6¦¥%@¤6¦¥%@¯v¥6¦¥%@HÎ¦6¦¥%@¬Å§6¦¥%@
+Wave: v(netr3_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 133
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+      @AÿæÛ/  @Aÿæ[0  @AÿæÛ0  @Aÿæ[1  @AÿæÛ1  @Aÿæ[2  @AÿæÛ2  @Aÿæ[3  @A»ÙÃ3  @Aûß4  @AÓ74  @A7Æb4  @AªÜ†4  @A9Vœ4  @AÈÏ±4  @AWIÇ4  @AæÂÜ4  @Au<ò4  @AÛ5  @AÉ—5  @A‘T5  @AX$5  @A Î.5  @AçŠ95  @A®GD5  @AvO5  @A=ÁY5  @A~d5  @AÌ:o5  @A”÷y5  @A.Z‚5  @A‘¸‡5  @Aõ5  @AYu’5  @A¼Ó—5  @A 25  @A„¢5  @Aèî§5  @AKM­5  @A¯«²5  @A
+¸5  @Avh½5  @AÚÆÂ5  @A>%È5  @A¢ƒÍ5  @AâÒ5  @Ai@Ø5  @AÍİ5  @A1ıâ5  @A”[è5  @Aø¹í5  @A\ó5  @A¿vø5  @A#Õı5  @AÃ™6  @AõH6  @A'ø6  @AY§	6  @A‹V6  @A½6  @Aï´6  @A d6  @AR6  @A„Â6  @A¶q6  @Aè 6  @AĞ!6  @AL$6  @A}.'6  @A¯İ)6  @AáŒ,6  @A</6  @AEë16  @Awš46  @A©I76  @AÚø96  @A¨<6  @A>W?6  @ApB6  @A¢µD6  @AÔdG6  @AJ6  @A8ÃL6  @AirO6  @A›!R6  @AÍĞT6  @AÿW6  @A1/Z6  @AcŞ\6  @A•_6  @AÆ<b6  @Aøëd6  @A*›g6  @A\Jj6  @Aùl6  @AÀ¨o6  @AòWr6  @A#u6  @AU¶w6  @A‡ez6  @A¹}6  @AëÃ6  @A96  @A'‘‚6  @AÀèƒ6  @AY@…6  @Aò—†6  @A‹ï‡6  @A$G‰6  @A½Š6  @AVö‹6  @AïM6  @Aˆ¥6  @A!ı6  @AºT‘6  @AR¬’6  @Aë”6  @A„[•6  @A³–6  @A¶
+˜6  @AOb™6  @Aè¹š6  @Aœ6  @Ai6  @A³À6  @AL 6  @Aåo¡6  @A~Ç¢6  @A¤6  @A¯v¥6  @AHÎ¦6  @A¬Å§6  @A
+Wave: v(netr4_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 133
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveDataStart
+    ˜¥%@ÿæÛ/˜¥%@ÿæ[0˜¥%@ÿæÛ0˜¥%@ÿæ[1˜¥%@ÿæÛ1˜¥%@ÿæ[2˜¥%@ÿæÛ2˜¥%@ÿæ[3˜¥%@»ÙÃ3˜¥%@ûß4˜¥%@Ó74˜¥%@7Æb4˜¥%@ªÜ†4˜¥%@9Vœ4˜¥%@ÈÏ±4˜¥%@WIÇ4˜¥%@æÂÜ4˜¥%@u<ò4˜¥%@Û5˜¥%@É—5˜¥%@‘T5˜¥%@X$5˜¥%@ Î.5˜¥%@çŠ95˜¥%@®GD5˜¥%@vO5˜¥%@=ÁY5˜¥%@~d5˜¥%@Ì:o5˜¥%@”÷y5˜¥%@.Z‚5˜¥%@‘¸‡5˜¥%@õ5˜¥%@Yu’5˜¥%@¼Ó—5˜¥%@ 25˜¥%@„¢5˜¥%@èî§5˜¥%@KM­5˜¥%@¯«²5˜¥%@
+¸5˜¥%@vh½5˜¥%@ÚÆÂ5˜¥%@>%È5˜¥%@¢ƒÍ5˜¥%@âÒ5˜¥%@i@Ø5˜¥%@Íİ5˜¥%@1ıâ5˜¥%@”[è5˜¥%@ø¹í5˜¥%@\ó5˜¥%@¿vø5˜¥%@#Õı5˜¥%@Ã™6˜¥%@õH6˜¥%@'ø6˜¥%@Y§	6˜¥%@‹V6˜¥%@½6˜¥%@ï´6˜¥%@ d6˜¥%@R6˜¥%@„Â6˜¥%@¶q6˜¥%@è 6˜¥%@Ğ!6˜¥%@L$6˜¥%@}.'6˜¥%@¯İ)6˜¥%@áŒ,6˜¥%@</6˜¥%@Eë16˜¥%@wš46˜¥%@©I76˜¥%@Úø96˜¥%@¨<6˜¥%@>W?6˜¥%@pB6˜¥%@¢µD6˜¥%@ÔdG6˜¥%@J6˜¥%@8ÃL6˜¥%@irO6˜¥%@›!R6˜¥%@ÍĞT6˜¥%@ÿW6˜¥%@1/Z6˜¥%@cŞ\6˜¥%@•_6˜¥%@Æ<b6˜¥%@øëd6˜¥%@*›g6˜¥%@\Jj6˜¥%@ùl6˜¥%@À¨o6˜¥%@òWr6˜¥%@#u6˜¥%@U¶w6˜¥%@‡ez6˜¥%@¹}6˜¥%@ëÃ6˜¥%@96˜¥%@'‘‚6˜¥%@Àèƒ6˜¥%@Y@…6˜¥%@ò—†6˜¥%@‹ï‡6˜¥%@$G‰6˜¥%@½Š6˜¥%@Vö‹6˜¥%@ïM6˜¥%@ˆ¥6˜¥%@!ı6˜¥%@ºT‘6˜¥%@R¬’6˜¥%@ë”6˜¥%@„[•6˜¥%@³–6˜¥%@¶
+˜6˜¥%@Ob™6˜¥%@è¹š6˜¥%@œ6˜¥%@i6˜¥%@³À6˜¥%@L 6˜¥%@åo¡6˜¥%@~Ç¢6˜¥%@¤6˜¥%@¯v¥6˜¥%@HÎ¦6˜¥%@¬Å§6˜¥%@
 Wave: v(netr6_1)
 WaveYUnitStr: V
 WaveHint: 
-WavePoints: 59
+WavePoints: 133
 WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveDataStart
-    "3S@_p	0"3S@_p‰0"3S@_p	1"3S@_p‰1"3S@_p	2"3S@_p‰2"3S@_p	3"3S@_p‰3"3S@_p	4"3S@*Ğt4"3S@ú°4"3S@ßÇå4"3S@â»5"3S@Õ“(5"3S@ÇkC5"3S@ºC^5"3S@­y5"3S@Ğù‰5"3S@Ée—5"3S@ÂÑ¤5"3S@¼=²5"3S@µ©¿5"3S@®Í5"3S@§Ú5"3S@¡íç5"3S@šYõ5"3S@Êb6"3S@Æ6"3S@ÃÎ6"3S@À„6"3S@¼:6"3S@¹ğ"6"3S@¶¦)6"3S@²\06"3S@¯76"3S@¬È=6"3S@¨~D6"3S@¥4K6"3S@¡êQ6"3S@ X6"3S@›V_6"3S@—f6"3S@”Âl6"3S@‘xs6"3S@.z6"3S@Er€6"3S@CÍƒ6"3S@B(‡6"3S@@ƒŠ6"3S@>Ş6"3S@=9‘6"3S@;””6"3S@9ï—6"3S@8J›6"3S@6¥6"3S@4 ¢6"3S@3[¥6"3S@¬Å§6"3S@
+    "3S@ÿæÛ/"3S@ÿæ[0"3S@ÿæÛ0"3S@ÿæ[1"3S@ÿæÛ1"3S@ÿæ[2"3S@ÿæÛ2"3S@ÿæ[3"3S@»ÙÃ3"3S@ûß4"3S@Ó74"3S@7Æb4"3S@ªÜ†4"3S@9Vœ4"3S@ÈÏ±4"3S@WIÇ4"3S@æÂÜ4"3S@u<ò4"3S@Û5"3S@É—5"3S@‘T5"3S@X$5"3S@ Î.5"3S@çŠ95"3S@®GD5"3S@vO5"3S@=ÁY5"3S@~d5"3S@Ì:o5"3S@”÷y5"3S@.Z‚5"3S@‘¸‡5"3S@õ5"3S@Yu’5"3S@¼Ó—5"3S@ 25"3S@„¢5"3S@èî§5"3S@KM­5"3S@¯«²5"3S@
+¸5"3S@vh½5"3S@ÚÆÂ5"3S@>%È5"3S@¢ƒÍ5"3S@âÒ5"3S@i@Ø5"3S@Íİ5"3S@1ıâ5"3S@”[è5"3S@ø¹í5"3S@\ó5"3S@¿vø5"3S@#Õı5"3S@Ã™6"3S@õH6"3S@'ø6"3S@Y§	6"3S@‹V6"3S@½6"3S@ï´6"3S@ d6"3S@R6"3S@„Â6"3S@¶q6"3S@è 6"3S@Ğ!6"3S@L$6"3S@}.'6"3S@¯İ)6"3S@áŒ,6"3S@</6"3S@Eë16"3S@wš46"3S@©I76"3S@Úø96"3S@¨<6"3S@>W?6"3S@pB6"3S@¢µD6"3S@ÔdG6"3S@J6"3S@8ÃL6"3S@irO6"3S@›!R6"3S@ÍĞT6"3S@ÿW6"3S@1/Z6"3S@cŞ\6"3S@•_6"3S@Æ<b6"3S@øëd6"3S@*›g6"3S@\Jj6"3S@ùl6"3S@À¨o6"3S@òWr6"3S@#u6"3S@U¶w6"3S@‡ez6"3S@¹}6"3S@ëÃ6"3S@96"3S@'‘‚6"3S@Àèƒ6"3S@Y@…6"3S@ò—†6"3S@‹ï‡6"3S@$G‰6"3S@½Š6"3S@Vö‹6"3S@ïM6"3S@ˆ¥6"3S@!ı6"3S@ºT‘6"3S@R¬’6"3S@ë”6"3S@„[•6"3S@³–6"3S@¶
+˜6"3S@Ob™6"3S@è¹š6"3S@œ6"3S@i6"3S@³À6"3S@L 6"3S@åo¡6"3S@~Ç¢6"3S@¤6"3S@¯v¥6"3S@HÎ¦6"3S@¬Å§6"3S@
 Wave: time
 WaveYUnitStr: s
 WaveHint: 
-WavePoints: 59
+WavePoints: 133
 WaveIsXComplex: FALSE
 WaveIsYComplex: FALSE
 WaveType: 0
 WaveIndependent: TRUE
 WaveDataStart
-        _p	0_p	0_p‰0_p‰0_p	1_p	1_p‰1_p‰1_p	2_p	2_p‰2_p‰2_p	3_p	3_p‰3_p‰3_p	4_p	4*Ğt4*Ğt4ú°4ú°4ßÇå4ßÇå4â»5â»5Õ“(5Õ“(5ÇkC5ÇkC5ºC^5ºC^5­y5­y5Ğù‰5Ğù‰5Ée—5Ée—5ÂÑ¤5ÂÑ¤5¼=²5¼=²5µ©¿5µ©¿5®Í5®Í5§Ú5§Ú5¡íç5¡íç5šYõ5šYõ5Êb6Êb6Æ6Æ6ÃÎ6ÃÎ6À„6À„6¼:6¼:6¹ğ"6¹ğ"6¶¦)6¶¦)6²\06²\06¯76¯76¬È=6¬È=6¨~D6¨~D6¥4K6¥4K6¡êQ6¡êQ6 X6 X6›V_6›V_6—f6—f6”Âl6”Âl6‘xs6‘xs6.z6.z6Er€6Er€6CÍƒ6CÍƒ6B(‡6B(‡6@ƒŠ6@ƒŠ6>Ş6>Ş6=9‘6=9‘6;””6;””69ï—69ï—68J›68J›66¥66¥64 ¢64 ¢63[¥63[¥6¬Å§6¬Å§6
+        ÿæÛ/ÿæÛ/ÿæ[0ÿæ[0ÿæÛ0ÿæÛ0ÿæ[1ÿæ[1ÿæÛ1ÿæÛ1ÿæ[2ÿæ[2ÿæÛ2ÿæÛ2ÿæ[3ÿæ[3»ÙÃ3»ÙÃ3ûß4ûß4Ó74Ó747Æb47Æb4ªÜ†4ªÜ†49Vœ49Vœ4ÈÏ±4ÈÏ±4WIÇ4WIÇ4æÂÜ4æÂÜ4u<ò4u<ò4Û5Û5É—5É—5‘T5‘T5X$5X$5 Î.5 Î.5çŠ95çŠ95®GD5®GD5vO5vO5=ÁY5=ÁY5~d5~d5Ì:o5Ì:o5”÷y5”÷y5.Z‚5.Z‚5‘¸‡5‘¸‡5õ5õ5Yu’5Yu’5¼Ó—5¼Ó—5 25 25„¢5„¢5èî§5èî§5KM­5KM­5¯«²5¯«²5
+¸5
+¸5vh½5vh½5ÚÆÂ5ÚÆÂ5>%È5>%È5¢ƒÍ5¢ƒÍ5âÒ5âÒ5i@Ø5i@Ø5Íİ5Íİ51ıâ51ıâ5”[è5”[è5ø¹í5ø¹í5\ó5\ó5¿vø5¿vø5#Õı5#Õı5Ã™6Ã™6õH6õH6'ø6'ø6Y§	6Y§	6‹V6‹V6½6½6ï´6ï´6 d6 d6R6R6„Â6„Â6¶q6¶q6è 6è 6Ğ!6Ğ!6L$6L$6}.'6}.'6¯İ)6¯İ)6áŒ,6áŒ,6</6</6Eë16Eë16wš46wš46©I76©I76Úø96Úø96¨<6¨<6>W?6>W?6pB6pB6¢µD6¢µD6ÔdG6ÔdG6J6J68ÃL68ÃL6irO6irO6›!R6›!R6ÍĞT6ÍĞT6ÿW6ÿW61/Z61/Z6cŞ\6cŞ\6•_6•_6Æ<b6Æ<b6øëd6øëd6*›g6*›g6\Jj6\Jj6ùl6ùl6À¨o6À¨o6òWr6òWr6#u6#u6U¶w6U¶w6‡ez6‡ez6¹}6¹}6ëÃ6ëÃ69696'‘‚6'‘‚6Àèƒ6Àèƒ6Y@…6Y@…6ò—†6ò—†6‹ï‡6‹ï‡6$G‰6$G‰6½Š6½Š6Vö‹6Vö‹6ïM6ïM6ˆ¥6ˆ¥6!ı6!ı6ºT‘6ºT‘6R¬’6R¬’6ë”6ë”6„[•6„[•6³–6³–6¶
+˜6¶
+˜6Ob™6Ob™6è¹š6è¹š6œ6œ6i6i6³À6³À6L 6L 6åo¡6åo¡6~Ç¢6~Ç¢6¤6¤6¯v¥6¯v¥6HÎ¦6HÎ¦6¬Å§6¬Å§6
 Chart: AC Analysis
-ChartId: UKJVDHXV
+ChartId: ODYUPNXQ
 ChartShow: TRUE
 ChartXMinReal: 3.00000000000000E+000
 ChartXMaxReal: 9.00000000000000E+000
@@ -734,8 +821,28 @@ WaveIsXComplex: TRUE
 WaveIsYComplex: TRUE
 WaveType: 0
 WaveDataStart
-  zD    İÜ\>    ]D    İÜ\>    •ÆD    İÜ\>    ehùD    İÜ\>    /şE    İÜ\>    q¤EE    İÜ\>    &ÑxE    İÜ\>    ûœE    İÜ\>    –,ÅE    İÜ\>    B:øE    İÜ\>     @F    İÜ\>    µDF    İÜ\>    º£wF    İÜ\>    ?á›F    İÜ\>    »=ÄF    İÜ\>    ÷F    İÜ\>    ¸‚G    İÜ\>    ¹ÆCG    İÜ\>    ¼wvG    İÜ\>    i$›G    İÜ\>     PÃG    İÜ\>    EâõG    İÜ\>    TÆH    İÜ\>    ÙBH    İÜ\>    )MuH    İÜ\>    yhšH    İÜ\>    ecÂH    İÜ\>    g¸ôH    İÜ\>    Ö
-I    İÜ\>    „íAI    İÜ\>     $tI    İÜ\>    k­™I    İÜ\>    êwÁI    İÜ\>    óóI    İÜ\>    :PJ    İÜ\>    —AJ    İÜ\>    ?ürJ    İÜ\>    Aó˜J    İÜ\>    ‹ÀJ    İÜ\>    åhòJ    İÜ\>    €–K    İÜ\>    Æ@K    İÜ\>    äÕqK    İÜ\>    ø9˜K    İÜ\>    H¤¿K    İÜ\>    <CñK    İÜ\>    §İL    İÜ\>    0?L    İÜ\>    î°pL    İÜ\>    —L    İÜ\>     ¼¾L    İÜ\>    øğL    İÜ\>    ®%M    İÜ\>    uH>M    İÜ\>    ZoM    İÜ\>    Ê–M    İÜ\>    Õ½M    İÜ\>    üîM    İÜ\>    •nN    İÜ\>    óa=N    İÜ\>    (knN    İÜ\>    
+  zD            ]D            •ÆD            ehùD            /şE            q¤EE            &ÑxE            ûœE            –,ÅE            B:øE             @F            µDF            º£wF            ?á›F            »=ÄF            ÷F            ¸‚G            ¹ÆCG            ¼wvG            i$›G             PÃG            EâõG            TÆH            ÙBH            )MuH            yhšH            ecÂH            g¸ôH            Ö
+I            „íAI             $tI            k­™I            êwÁI            óóI            :PJ            —AJ            ?ürJ            Aó˜J            ‹ÀJ            åhòJ            €–K            Æ@K            äÕqK            ø9˜K            H¤¿K            <CñK            §İL            0?L            î°pL            —L             ¼¾L            øğL            ®%M            uH>M            ZoM            Ê–M            Õ½M            üîM            •nN            óa=N            (knN            
+Wave: v(netr3_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveDataStart
+  zD            ]D            •ÆD            ehùD            /şE            q¤EE            &ÑxE            ûœE            –,ÅE            B:øE             @F            µDF            º£wF            ?á›F            »=ÄF            ÷F            ¸‚G            ¹ÆCG            ¼wvG            i$›G             PÃG            EâõG            TÆH            ÙBH            )MuH            yhšH            ecÂH            g¸ôH            Ö
+I            „íAI             $tI            k­™I            êwÁI            óóI            :PJ            —AJ            ?ürJ            Aó˜J            ‹ÀJ            åhòJ            €–K            Æ@K            äÕqK            ø9˜K            H¤¿K            <CñK            §İL            0?L            î°pL            —L             ¼¾L            øğL            ®%M            uH>M            ZoM            Ê–M            Õ½M            üîM            •nN            óa=N            (knN            
+Wave: v(netr4_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveDataStart
+  zD            ]D            •ÆD            ehùD            /şE            q¤EE            &ÑxE            ûœE            –,ÅE            B:øE             @F            µDF            º£wF            ?á›F            »=ÄF            ÷F            ¸‚G            ¹ÆCG            ¼wvG            i$›G             PÃG            EâõG            TÆH            ÙBH            )MuH            yhšH            ecÂH            g¸ôH            Ö
+I            „íAI             $tI            k­™I            êwÁI            óóI            :PJ            —AJ            ?ürJ            Aó˜J            ‹ÀJ            åhòJ            €–K            Æ@K            äÕqK            ø9˜K            H¤¿K            <CñK            §İL            0?L            î°pL            —L             ¼¾L            øğL            ®%M            uH>M            ZoM            Ê–M            Õ½M            üîM            •nN            óa=N            (knN            
 Wave: v(netr6_1)
 WaveYUnitStr: V
 WaveHint: 
@@ -744,5 +851,5 @@ WaveIsXComplex: TRUE
 WaveIsYComplex: TRUE
 WaveType: 0
 WaveDataStart
-  zD    ÁÌŒ>    ]D    ÁÌŒ>    •ÆD    ÁÌŒ>    ehùD    ÁÌŒ>    /şE    ÁÌŒ>    q¤EE    ÁÌŒ>    &ÑxE    ÁÌŒ>    ûœE    ÁÌŒ>    –,ÅE    ÁÌŒ>    B:øE    ÁÌŒ>     @F    ÁÌŒ>    µDF    ÁÌŒ>    º£wF    ÁÌŒ>    ?á›F    ÁÌŒ>    »=ÄF    ÁÌŒ>    ÷F    ÁÌŒ>    ¸‚G    ÁÌŒ>    ¹ÆCG    ÁÌŒ>    ¼wvG    ÁÌŒ>    i$›G    ÁÌŒ>     PÃG    ÁÌŒ>    EâõG    ÁÌŒ>    TÆH    ÁÌŒ>    ÙBH    ÁÌŒ>    )MuH    ÁÌŒ>    yhšH    ÁÌŒ>    ecÂH    ÁÌŒ>    g¸ôH    ÁÌŒ>    Ö
-I    ÁÌŒ>    „íAI    ÁÌŒ>     $tI    ÁÌŒ>    k­™I    ÁÌŒ>    êwÁI    ÁÌŒ>    óóI    ÁÌŒ>    :PJ    ÁÌŒ>    —AJ    ÁÌŒ>    ?ürJ    ÁÌŒ>    Aó˜J    ÁÌŒ>    ‹ÀJ    ÁÌŒ>    åhòJ    ÁÌŒ>    €–K    ÁÌŒ>    Æ@K    ÁÌŒ>    äÕqK    ÁÌŒ>    ø9˜K    ÁÌŒ>    H¤¿K    ÁÌŒ>    <CñK    ÁÌŒ>    §İL    ÁÌŒ>    0?L    ÁÌŒ>    î°pL    ÁÌŒ>    —L    ÁÌŒ>     ¼¾L    ÁÌŒ>    øğL    ÁÌŒ>    ®%M    ÁÌŒ>    uH>M    ÁÌŒ>    ZoM    ÁÌŒ>    Ê–M    ÁÌŒ>    Õ½M    ÁÌŒ>    üîM    ÁÌŒ>    •nN    ÁÌŒ>    óa=N    ÁÌŒ>    (knN    ÁÌŒ>    
+  zD            ]D            •ÆD            ehùD            /şE            q¤EE            &ÑxE            ûœE            –,ÅE            B:øE             @F            µDF            º£wF            ?á›F            »=ÄF            ÷F            ¸‚G            ¹ÆCG            ¼wvG            i$›G             PÃG            EâõG            TÆH            ÙBH            )MuH            yhšH            ecÂH            g¸ôH            Ö
+I            „íAI             $tI            k­™I            êwÁI            óóI            :PJ            —AJ            ?ürJ            Aó˜J            ‹ÀJ            åhòJ            €–K            Æ@K            äÕqK            ø9˜K            H¤¿K            <CñK            §İL            0?L            î°pL            —L             ¼¾L            øğL            ®%M            uH>M            ZoM            Ê–M            Õ½M            üîM            •nN            óa=N            (knN            
