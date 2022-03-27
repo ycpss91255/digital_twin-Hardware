@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for OWMR
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -218,8 +218,125 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document11]
+DocumentPath=OWMR.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=MessageListReport.html
+DocumentPath=Project Outputs for OWMR\Folder Structure\BOM\Bill of Materials-OWMR.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for OWMR\Folder Structure\BOM\Bill of Materials-OWMR.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Pick Place\Pick Place for Top.csv
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Pick Place\Pick Place for Top.txt
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for OWMR\Pick Place for Top.txt
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top-RectHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.REP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for OWMR\Folder Structure\ExportSTEP\Top.step
 DItemRevisionGUID=
 
 [Configuration1]
@@ -238,6 +355,9 @@ ProfileId0=JGGBVVAD
 ProfileName0=Mixed Sim Configuration
 OutputType0=AdvSimNetlist
 ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analysis=True|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|TRAN_FourierAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source=|TF_Reference=0|PZ_Enabled=False|PZ_Node1=|PZ_Node2=0|PZ_Node3=|PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_ShowMeasTableChart=False|DC_PrimarySource=|DC_PrimaryStart=|DC_PrimaryStop=|DC_PrimaryStep=|DC_EnableSecondary=False|DC_SecondarySource=|DC_SecondaryStart=|DC_SecondaryStop=|DC_SecondaryStep=|Noise_Enabled=False|Noise_Source=|Noise_Output=|Noise_Reference=0|Noise_Start_UserValue=|Noise_Start=1K|Noise_Stop_UserValue=|Noise_Stop=1G|Noise_TestPoints_UserValue=|Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|AC_StartFrequency_UserValue=|AC_StartFrequency=1K|AC_StopFrequency_UserValue=|AC_StopFrequency=1G|AC_TestPoints_UserValue=|AC_TestPoints=10|AC_SweepType=DEC|AC_ShowMeasTableChart=False|TRAN_StartTime_UserValue=|TRAN_StartTime=0|TRAN_StopTime_UserValue=|TRAN_StopTime=5u|TRAN_StepTime_UserValue=|TRAN_StepTime=0.1u|TRAN_MaxStepTime_UserValue=|TRAN_MaxStepTime=0.1u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue=|TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue=|TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=False|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue=|TRAN_FourierFundFreq=1Meg|TRAN_FourierNumHarmonics_UserValue=|TRAN_FourierNumHarmonics=10|TRAN_ShowMeasTableChart=False|TempSweep_Start_UserValue=|TempSweep_Start=-10|TempSweep_Stop_UserValue=|TempSweep_Stop=60|TempSweep_Step_UserValue=|TempSweep_Step=10|ParamSweep_Parameter1=|ParamSweep_Type1=LIN|ParamSweep_Start1=|ParamSweep_Stop1=|ParamSweep_Step1=|ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2=|ParamSweep_Type2=LIN|ParamSweep_Start2=|ParamSweep_Stop2=|ParamSweep_Step2=|ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|Sensitivity_Analysis=False|Sensitivity_GroupDeviationsEnabled=False|Sensitivity_GroupResistorEnabled=True|Sensitivity_GroupResistorDeviation_UserValue=|Sensitivity_GroupResistorDeviation=1m|Sensitivity_GroupCapacitorEnabled=False|Sensitivity_GroupCapacitorDeviation_UserValue=|Sensitivity_GroupCapacitorDeviation=1m|Sensitivity_GroupInductorEnabled=False|Sensitivity_GroupInductorDeviation_UserValue=|Sensitivity_GroupInductorDeviation=1m|Sensitivity_GroupTransistorEnabled=False|Sensitivity_GroupTransistorDeviation_UserValue=|Sensitivity_GroupTransistorDeviation=1m|Sensitivity_GroupDcSourceEnabled=False|Sensitivity_GroupDcSourceDeviation_UserValue=|Sensitivity_GroupDcSourceDeviation=1m|Sensitivity_GroupGlobalParameterEnabled=False|Sensitivity_GroupGlobalParameterDeviation_UserValue=|Sensitivity_GroupGlobalParameterDeviation=1m|Sensitivity_CustomDeviationsEnabled=True|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue=|OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue=|OPTION_DVCC=5|OPTION_DVDD_UserValue=|OPTION_DVDD=15|SheetsToNetlist=0
+
+[Generic_EDE]
+OutputDir=Project Outputs for OWMR
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -349,6 +469,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -362,6 +492,16 @@ OutputVariantName1=
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analysis=True|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|TRAN_FourierAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source= |TF_Reference=0|PZ_Enabled=False|PZ_Node1= |PZ_Node2=0|PZ_Node3= |PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_ShowMeasTableChart=False|DC_PrimarySource= |DC_PrimaryStart= |DC_PrimaryStop= |DC_PrimaryStep= |DC_EnableSecondary=False|DC_SecondarySource= |DC_SecondaryStart= |DC_SecondaryStop= |DC_SecondaryStep= |Noise_Enabled=False|Noise_Source= |Noise_Output= |Noise_Reference=0|Noise_Start_UserValue= |Noise_Start=1K|Noise_Stop_UserValue= |Noise_Stop=1G|Noise_TestPoints_UserValue= |Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|AC_StartFrequency_UserValue= |AC_StartFrequency=1K|AC_StopFrequency_UserValue= |AC_StopFrequency=1G|AC_TestPoints_UserValue= |AC_TestPoints=10|AC_SweepType=DEC|AC_ShowMeasTableChart=False|TRAN_StartTime_UserValue= |TRAN_StartTime=0|TRAN_StopTime_UserValue= |TRAN_StopTime=5u|TRAN_StepTime_UserValue= |TRAN_StepTime=0.1u|TRAN_MaxStepTime_UserValue= |TRAN_MaxStepTime=0.1u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue= |TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue= |TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=False|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue= |TRAN_FourierFundFreq=1Meg|TRAN_FourierNumHarmonics_UserValue= |TRAN_FourierNumHarmonics=10|TRAN_ShowMeasTableChart=False|TempSweep_Start_UserValue= |TempSweep_Start=-10|TempSweep_Stop_UserValue= |TempSweep_Stop=60|TempSweep_Step_UserValue= |TempSweep_Step=10|ParamSweep_Parameter1= |ParamSweep_Type1=LIN|ParamSweep_Start1= |ParamSweep_Stop1= |ParamSweep_Step1= |ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2= |ParamSweep_Type2=LIN|ParamSweep_Start2= |ParamSweep_Stop2= |ParamSweep_Step2= |ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|Sensitivity_Analysis=False|Sensitivity_GroupDeviationsEnabled=False|Sensitivity_GroupResistorEnabled=True|Sensitivity_GroupResistorDeviation_UserValue= |Sensitivity_GroupResistorDeviation=1m|Sensitivity_GroupCapacitorEnabled=False|Sensitivity_GroupCapacitorDeviation_UserValue= |Sensitivity_GroupCapacitorDeviation=1m|Sensitivity_GroupInductorEnabled=False|Sensitivity_GroupInductorDeviation_UserValue= |Sensitivity_GroupInductorDeviation=1m|Sensitivity_GroupTransistorEnabled=False|Sensitivity_GroupTransistorDeviation_UserValue= |Sensitivity_GroupTransistorDeviation=1m|Sensitivity_GroupDcSourceEnabled=False|Sensitivity_GroupDcSourceDeviation_UserValue= |Sensitivity_GroupDcSourceDeviation=1m|Sensitivity_GroupGlobalParameterEnabled=False|Sensitivity_GroupGlobalParameterDeviation_UserValue= |Sensitivity_GroupGlobalParameterDeviation=1m|Sensitivity_CustomDeviationsEnabled=True|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue= |OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue= |OPTION_DVCC=5|OPTION_DVDD_UserValue= |OPTION_DVDD=15|SheetsToNetlist=0|Record=AdvSimNetlistView|SimulationName=Mixed Sim Configuration|ProfileId=JGGBVVAD
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -476,93 +616,101 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:datasheet,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#18=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#19=Name:buy_link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#20=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#21=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#22=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#23=Name:Code_JEITA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#24=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#25=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#26=Name:Code_JEDEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#27=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#28=Name:BuyLink,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#29=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#30=Name:Code_IEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#31=Name:DatasheetDocument,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#32=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#33=Name:Published,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|DocumentPath=E:\source_code\digital_twin-Hardware\OWMR\Top.PcbDoc
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=E:\source_code\digital_twin-Hardware\OWMR\Top.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
