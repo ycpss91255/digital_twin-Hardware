@@ -3,4 +3,4 @@ Version=1.0
 [Project1]
 ProjectPath=OWMR\OWMR.PrjPcb
 [Project2]
-ProjectPath=sim_test\sim_test.PrjPcb
+ProjectPath=OWMR\Libraries\OWMR.LibPkg
