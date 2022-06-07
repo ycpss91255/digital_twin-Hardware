@@ -1,0 +1,28 @@
+Component Name : Motor Output Header
+
+Part Count : 3
+
+Part : P?
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : P?A
+     Pins - (Normal) : 6
+          VM             1              Passive
+          MA1            2              Passive
+          MA2            3              Passive
+          MB1            4              Passive
+          MB2            5              Passive
+          GND            6              Passive
+          Hidden Pins : 
+
+Part : P?B
+     Pins - (Normal) : 6
+          VM             1              Passive
+          MA1            2              Passive
+          MA2            3              Passive
+          MB1            4              Passive
+          MB2            5              Passive
+          GND            6              Passive
+          Hidden Pins : 
+
