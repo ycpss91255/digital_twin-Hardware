@@ -1,0 +1,47 @@
+Altium Designer Pick and Place Locations
+E:\source_code\digital_twin-Hardware\OWMR\Project Outputs for OWMR\Folder Structure\Pick Place\Pick Place for Top.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       09/06/22
+Time:       22:27
+Revision:   e6434fc4e687c65b0f9bc8314fa880200709fe45
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"U?","OPA4277UA/2K5","TopLayer","OPA4277UA/2K5","-32.1818","19.5756","0","790£gA 1MHz 4 4V~36V,¡Ó2V~18V 0.8 V/us General Purpose SOIC-14  Precision OpAmps ROHS"
+"P?","Heaader 2","TopLayer","KH-2.54FH-1X2P-H8.5","14.0462","21.6076","90","KH-2.54FH-1X2P-H8.5
+2.54mm 3A -40¢J~+105¢J Straight 1x2P 8.5mm Top 2 1 Square Holes Plugin,P=2.54mm  Female Headers ROHS
+-----
+KH-2.54PH180-1X2P-L11.5
+3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 2 3mm 2.54mm Black 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+"P?","Heaader 7","TopLayer","KH-2.54FH-1X7P-H8.5","-17.5768","15.2886","90","KH-2.54FH-1X7P-H8.5
+2.54mm 3A -40¢J~+105¢J Straight 1x7P 8.5mm Top 7 1 Square Holes Plugin,P=2.54mm  Female Headers ROHS
+-----
+KH-2.54PH180-1X7P-L11.5
+3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 7 3mm 2.54mm Black 1x7P Plugin,P=2.54mm  Pin Headers ROHS"
+"P?","Heaader 6","TopLayer","KH-2.54FH-1X6P-H8.5","9.9822","16.5586","90","KH-2.54FH-1X6P-H8.5
+2.54mm 3A -40¢J~+105¢J Straight 1x6P 8.5mm Top 6 1 Square Holes Plugin,P=2.54mm  Female Headers ROHS
+-----
+KH-2.54PH180-1X6P-L11.5
+3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 6 3mm 2.54mm Black 1x6P Plugin,P=2.54mm  Pin Headers ROHS"
+"P?","S6B-XH-A(LF)(SN)","TopLayer","S6B-XH-A(LF)(SN)","-12.3698","15.7656","90","1x6P XH 1 2.5mm 6 Brass Plugin,P=2.5mm  Wire To Board / Wire To Wire Connector ROHS"
+"P?","Heaader 4","TopLayer","KH-2.54FH-1X4P-H8.5","6.0452","19.0986","90","KH-2.54FH-1X4P-H8.5
+2.54mm 3A -40¢J~+105¢J Straight 1x4P 8.5mm Top 4 1 Square Holes Plugin,P=2.54mm  Female Headers ROHS
+-----
+KH-2.54PH180-1X4P-L11.5
+3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 4 3mm 2.54mm Black 1x4P Plugin,P=2.54mm  Pin Headers ROHS"
+"P?","Header 12","TopLayer","KH-2.54PH180-1X12P-L11.5_(Pad_Linked)","-25.5778","9.1616","90","KH-2.54FH-1X12P-H8.5
+2.54mm 3A -40¢J~+105¢J Straight 1x12P 8.5mm Top 12 1 Square Holes Plugin,P=2.54mm  Female Headers ROHS
+-----
+KH-2.54PH180-1X8P-L11.5
+3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 12 3mm 2.54mm Black 1x12P Plugin,P=2.54mm  Pin Headers ROHS"
+"P?","Heaader 8","TopLayer","KH-2.54FH-1X8P-H8.5","-21.6408","14.0186","90","KH-2.54FH-1X8P-H8.5
+2.54mm 3A -40¢J~+105¢J Straight 1x8P 8.5mm Top 8 1 Square Holes Plugin,P=2.54mm  Female Headers ROHS
+-----
+KH-2.54PH180-1X8P-L11.5
+3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 8 3mm 2.54mm Black 1x8P Plugin,P=2.54mm  Pin Headers ROHS"
+"MD?","MD02","TopLayer","MD02","-53.2638","1.6686","90","MD02 17A 2 cheel motor driver"
+"DU?","MBRD1035CTLT4G","TopLayer","MBRD1035CTLT4G","-0.3048","17.8116","90","35V 470mV@5A 5A TO-252-2(DPAK) Schottky Barrier Diodes (SBD) ROHS"

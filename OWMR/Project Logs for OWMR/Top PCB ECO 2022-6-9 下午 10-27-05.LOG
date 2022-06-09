@@ -1,0 +1,24 @@
+Added Component: Designator=DU?(MBRD1035CTLT4G)
+Add component (AddParameter): Name = "buy_link"; Value = "https://www.ruten.com.tw/item/show?21744290003226"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "datasheet"; Value = "https://datasheet.ciiva.com/905/mbrd1035ctl-d-905952.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Added Component: Designator=MD?(MD02)
+Add component (AddParameter): Name = "buy_link"; Value = "https://www.ruten.com.tw/item/show?21811773783671"; VariantName = "[No Variations]"
+Added Component: Designator=P?(KH-2.54FH-1X8P-H8.5)
+Added Component: Designator=P?(KH-2.54PH180-1X12P-L11.5 (Pad Linked))
+Added Component: Designator=P?(KH-2.54FH-1X4P-H8.5)
+Added Component: Designator=P?(S6B-XH-A(LF)(SN))
+Added Component: Designator=P?(KH-2.54FH-1X6P-H8.5)
+Added Component: Designator=P?(KH-2.54FH-1X7P-H8.5)
+Added Component: Designator=P?(KH-2.54FH-1X2P-H8.5)
+Added Component: Designator=U?(OPA4277UA/2K5)
+Added Member To Class: ClassName=Top Member=Component DU? MBRD1035CTLT4G
+Added Member To Class: ClassName=Top Member=Component MD? MD02
+Added Member To Class: ClassName=Top Member=Component P? Heaader 8
+Added Member To Class: ClassName=Top Member=Component P? Header 12
+Added Member To Class: ClassName=Top Member=Component P? Heaader 4
+Added Member To Class: ClassName=Top Member=Component P? S6B-XH-A(LF)(SN)
+Added Member To Class: ClassName=Top Member=Component P? Heaader 6
+Added Member To Class: ClassName=Top Member=Component P? Heaader 7
+Added Member To Class: ClassName=Top Member=Component P? Heaader 2
+Added Member To Class: ClassName=Top Member=Component U? OPA4277UA/2K5
+Added Room: Name=Top

@@ -1,0 +1,517 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2022/6/10</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">¤W¤È 12:16:21</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc" class="file"><acronym title="E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc">E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">59</td></tr>
+</table>
+</td>
+</table><a name="ID2D4FVARON5CCL3L03H0VC44HWMANDHYWWKQNRFLW3PAQNQ4KIE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHS5EPVMM5GELPCJLFZNJRIUC43PDNOLESFY0NFAZC01NXGRSHAJ">Clearance Constraint (Gap=0.127mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAL2SM2OZDLFCGN2JPPKU22EBDKHY5BYFS1YDRNEYYZOX23JPJ40D">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID45FZHGW1WBOMEW5FKFQXGCEIXHHQGXVLO3KWDFNTNUMCYRTROGRG">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">59</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID35MLM2SIUBL5N3HL4MZRM00JRL1DHA0YFEPSJONW32CSYPQM1KBI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAG25UEMRQPWFDGGVG1LBIDWN3KDWGIPBMLMPDIFB2YZSOBBHDCMI">Width Constraint (Min=0.127mm) (Max=25.4mm) (Preferred=0.127mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN11GCG322Q5BJTDCJ1AW1GVX1OOHTATKQZTQCULECQHZIIWXLRCJ">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLGZHWO13AET0N3CTFKOOTWYV5MX1GUJOP1ZRYMCBAZTQTJUUJAXK">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.127mm) (Air Gap=0.127mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIM1ULCTSTV0HBPS45JH03X41HIWW3QKCPMV3BCJY01DQU4K4QQLM">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCZOAVM1K32M3PTQLPPMIBF5NKCHMM2RMJTZ0PGFW2NCHNNQWVOFP">Hole Size Constraint (Min=0.3mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY4FJSPK2GXYDECM2YMT1Z3K1YBT2AWHC3PGSQAPTBM4WCKWYOPRH">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQ4FDP2Q1BGVQLNIFZV05GWDLRK20PI0QFUPSAWE2ICTPZ3MRPNPF">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKM3EGA0ZURDEDBZZ1XCNCT2SABNY4OTPPJYYJKPLWOKMAIYBQEVE">Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUTAEFX2CCMMJJSRGQQEQGYEGFOSVGZX4BYCCMDNH24RGBOJIFJEE">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBPBIIDIXBDIDLXL2XFXG4G50LN1UBBEUL0V45DDYTQ3QWQZNAKO">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJK4G0OTQWVCMK11014LVINTJ0FN5L4XZGEGEKVN2MEE2R4IBUTWM">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5TYSIP2RUFSLPZKHHSNP4MKDPCQBCO3SJDZ2ZQG25OOBG55VY22N">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">59</td>
+</tr>
+</table><br><a name="ID45FZHGW1WBOMEW5FKFQXGCEIXHHQGXVLO3KWDFNTNUMCYRTROGRG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=385.387mil|Location2.X=533.025mil|Location1.Y=1023.031mil|Location2.Y=1290.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=385.387mil|Location2.X=533.025mil|Location1.Y=1023.031mil|Location2.Y=1290.039mil|Absolute=True">Un-Routed Net Constraint: Net D_5V Between Pad C1-1(-36.232mm,-4.173mm) on Top Layer And Pad C2-2(-35.13mm,-9.03mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=243.34mil|Location2.X=533.025mil|Location1.Y=1206.89mil|Location2.Y=1291.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=243.34mil|Location2.X=533.025mil|Location1.Y=1206.89mil|Location2.Y=1291.535mil|Absolute=True">Un-Routed Net Constraint: Net D_5V Between Pad P1-1(-40.64mm,-4.21mm) on Multi-Layer And Pad C1-1(-36.232mm,-4.173mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=584.285mil|Location2.X=739.718mil|Location1.Y=1023.031mil|Location2.Y=1290.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=584.285mil|Location2.X=739.718mil|Location1.Y=1023.031mil|Location2.Y=1290.039mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C2-1(-32.43mm,-9.03mm) on Top Layer And Pad C1-2(-30.982mm,-4.173mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=592.08mil|Location2.X=1328.38mil|Location1.Y=1211.299mil|Location2.Y=1290.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=592.08mil|Location2.X=1328.38mil|Location1.Y=1211.299mil|Location2.Y=1290.748mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C1-2(-30.982mm,-4.173mm) on Top Layer And Pad C3-2(-16.03mm,-4.155mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=243.34mil|Location2.X=633.497mil|Location1.Y=1023.031mil|Location2.Y=1191.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=243.34mil|Location2.X=633.497mil|Location1.Y=1023.031mil|Location2.Y=1191.535mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad P1-2(-40.64mm,-6.75mm) on Multi-Layer And Pad C2-1(-32.43mm,-9.03mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=584.285mil|Location2.X=708.301mil|Location1.Y=788.779mil|Location2.Y=1095.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=584.285mil|Location2.X=708.301mil|Location1.Y=788.779mil|Location2.Y=1095.866mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C2-1(-32.43mm,-9.03mm) on Top Layer And Pad U1-11(-31.23mm,-15.53mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=389.403mil|Location2.X=527.198mil|Location1.Y=788.779mil|Location2.Y=1095.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=389.403mil|Location2.X=527.198mil|Location1.Y=788.779mil|Location2.Y=1095.866mil|Absolute=True">Un-Routed Net Constraint: Net D_5V Between Pad U1-4(-36.68mm,-15.53mm) on Top Layer And Pad C2-2(-35.13mm,-9.03mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1387.435mil|Location2.X=1623.655mil|Location1.Y=1212.008mil|Location2.Y=1290.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1387.435mil|Location2.X=1623.655mil|Location1.Y=1212.008mil|Location2.Y=1290.748mil|Absolute=True">Un-Routed Net Constraint: Net A_12V Between Pad C3-1(-10.78mm,-4.155mm) on Top Layer And Pad C4-2(-7.58mm,-4.33mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1180.742mil|Location2.X=1623.655mil|Location1.Y=1212.008mil|Location2.Y=1375.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1180.742mil|Location2.X=1623.655mil|Location1.Y=1212.008mil|Location2.Y=1375.394mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C3-2(-16.03mm,-4.155mm) on Top Layer And Pad C4-1(-7.58mm,-1.63mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1549.245mil|Location2.X=1623.655mil|Location1.Y=930.905mil|Location2.Y=1375.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1549.245mil|Location2.X=1623.655mil|Location1.Y=930.905mil|Location2.Y=1375.394mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C6-1(-7.62mm,-11.67mm) on Top Layer And Pad C4-1(-7.58mm,-1.63mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1550.82mil|Location2.X=1727.986mil|Location1.Y=1207.283mil|Location2.Y=1331.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1550.82mil|Location2.X=1727.986mil|Location1.Y=1207.283mil|Location2.Y=1331.299mil|Absolute=True">Un-Routed Net Constraint: Net A_12V Between Pad C4-2(-7.58mm,-4.33mm) on Top Layer And Pad P2-2(-5.08mm,-4.21mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1413.616mil|Location2.X=1622.08mil|Location1.Y=897.638mil|Location2.Y=980.118mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1413.616mil|Location2.X=1622.08mil|Location1.Y=897.638mil|Location2.Y=980.118mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C5-1(-11.065mm,-12.515mm) on Top Layer And Pad C6-1(-7.62mm,-11.67mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1486.45mil|Location1.Y=1001.653mil|Location2.Y=1056.772mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1486.45mil|Location1.Y=1001.653mil|Location2.Y=1056.772mil|Absolute=True">Un-Routed Net Constraint: Net MA1 Between Pad DU1-3(-13.865mm,-9.798mm) on Top Layer And Pad C5-2(-11.065mm,-9.815mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1413.616mil|Location2.X=1727.986mil|Location1.Y=1003.937mil|Location2.Y=1131.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1413.616mil|Location2.X=1727.986mil|Location1.Y=1003.937mil|Location2.Y=1131.299mil|Absolute=True">Un-Routed Net Constraint: Net MA1 Between Pad C5-2(-11.065mm,-9.815mm) on Top Layer And Pad P2-4(-5.08mm,-9.29mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1548.458mil|Location2.X=1622.08mil|Location1.Y=579.724mil|Location2.Y=980.118mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1548.458mil|Location2.X=1622.08mil|Location1.Y=579.724mil|Location2.Y=980.118mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C8-1(-7.64mm,-20.59mm) on Top Layer And Pad C6-1(-7.62mm,-11.67mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1622.08mil|Location1.Y=821.338mil|Location2.Y=876.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1622.08mil|Location1.Y=821.338mil|Location2.Y=876.457mil|Absolute=True">Un-Routed Net Constraint: Net MA2 Between Pad DU1-1(-13.865mm,-14.378mm) on Top Layer And Pad C6-2(-7.62mm,-14.37mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1549.245mil|Location2.X=1727.986mil|Location1.Y=807.283mil|Location2.Y=931.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1549.245mil|Location2.X=1727.986mil|Location1.Y=807.283mil|Location2.Y=931.299mil|Absolute=True">Un-Routed Net Constraint: Net MA2 Between Pad C6-2(-7.62mm,-14.37mm) on Top Layer And Pad P2-6(-5.08mm,-14.37mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1418.537mil|Location2.X=1621.293mil|Location1.Y=546.26mil|Location2.Y=628.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1418.537mil|Location2.X=1621.293mil|Location1.Y=546.26mil|Location2.Y=628.937mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C7-1(-10.94mm,-21.44mm) on Top Layer And Pad C8-1(-7.64mm,-20.59mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1491.371mil|Location1.Y=651.181mil|Location2.Y=706.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1491.371mil|Location1.Y=651.181mil|Location2.Y=706.299mil|Absolute=True">Un-Routed Net Constraint: Net MB1 Between Pad DU2-3(-13.865mm,-18.7mm) on Top Layer And Pad C7-2(-10.94mm,-18.74mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1418.537mil|Location2.X=1727.986mil|Location1.Y=607.283mil|Location2.Y=731.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1418.537mil|Location2.X=1727.986mil|Location1.Y=607.283mil|Location2.Y=731.299mil|Absolute=True">Un-Routed Net Constraint: Net MB1 Between Pad C7-2(-10.94mm,-18.74mm) on Top Layer And Pad P2-8(-5.08mm,-19.45mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1548.458mil|Location2.X=1727.986mil|Location1.Y=267.126mil|Location2.Y=628.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1548.458mil|Location2.X=1727.986mil|Location1.Y=267.126mil|Location2.Y=628.937mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad C8-1(-7.64mm,-20.59mm) on Top Layer And Pad P2-11(-5.08mm,-27.07mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1621.293mil|Location1.Y=470.866mil|Location2.Y=525.984mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1277.789mil|Location2.X=1621.293mil|Location1.Y=470.866mil|Location2.Y=525.984mil|Absolute=True">Un-Routed Net Constraint: Net MB2 Between Pad DU2-1(-13.865mm,-23.28mm) on Top Layer And Pad C8-2(-7.64mm,-23.29mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1548.458mil|Location2.X=1727.986mil|Location1.Y=467.126mil|Location2.Y=591.142mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1548.458mil|Location2.X=1727.986mil|Location1.Y=467.126mil|Location2.Y=591.142mil|Absolute=True">Un-Routed Net Constraint: Net MB2 Between Pad C8-2(-7.64mm,-23.29mm) on Top Layer And Pad P2-9(-5.08mm,-21.99mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=1214.797mil|Location1.Y=826.85mil|Location2.Y=1051.26mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=1214.797mil|Location1.Y=826.85mil|Location2.Y=1051.26mil|Absolute=True">Un-Routed Net Constraint: Net MAV_Origin Between Pad R2-2(-25.903mm,-14.278mm) on Top Layer And Pad DU1-4(-20.315mm,-12.088mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=1214.797mil|Location1.Y=476.378mil|Location2.Y=816.418mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=1214.797mil|Location1.Y=476.378mil|Location2.Y=816.418mil|Absolute=True">Un-Routed Net Constraint: Net MBV_Origin Between Pad R1-2(-25.903mm,-15.778mm) on Top Layer And Pad DU2-4(-20.315mm,-20.99mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=1106.89mil|Location2.Y=1191.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=1106.89mil|Location2.Y=1191.535mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad MD1-1(-43.18mm,-6.75mm) on Multi-Layer And Pad P1-2(-40.64mm,-6.75mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=1007.283mil|Location2.Y=1131.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=1007.283mil|Location2.Y=1131.299mil|Absolute=True">Un-Routed Net Constraint: Net MA1 Between Pad P2-4(-5.08mm,-9.29mm) on Multi-Layer And Pad MD1-10(-2.54mm,-9.29mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=807.283mil|Location2.Y=931.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=807.283mil|Location2.Y=931.299mil|Absolute=True">Un-Routed Net Constraint: Net MA2 Between Pad P2-6(-5.08mm,-14.37mm) on Multi-Layer And Pad MD1-11(-2.54mm,-14.37mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=607.283mil|Location2.Y=731.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=607.283mil|Location2.Y=731.299mil|Absolute=True">Un-Routed Net Constraint: Net MB1 Between Pad P2-8(-5.08mm,-19.45mm) on Multi-Layer And Pad MD1-12(-2.54mm,-19.45mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=407.283mil|Location2.Y=531.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=407.283mil|Location2.Y=531.299mil|Absolute=True">Un-Routed Net Constraint: Net MB2 Between Pad P2-10(-5.08mm,-24.53mm) on Multi-Layer And Pad MD1-13(-2.54mm,-24.53mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=207.283mil|Location2.Y=331.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=207.283mil|Location2.Y=331.299mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad P2-12(-5.08mm,-29.61mm) on Multi-Layer And Pad MD1-14(-2.54mm,-29.61mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=1006.89mil|Location2.Y=1091.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=1006.89mil|Location2.Y=1091.535mil|Absolute=True">Un-Routed Net Constraint: Net MA_DIR Between Pad MD1-2(-43.18mm,-9.29mm) on Multi-Layer And Pad P1-3(-40.64mm,-9.29mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=906.89mil|Location2.Y=991.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=906.89mil|Location2.Y=991.535mil|Absolute=True">Un-Routed Net Constraint: Net MA_PWM Between Pad MD1-3(-43.18mm,-11.83mm) on Multi-Layer And Pad P1-4(-40.64mm,-11.83mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=806.89mil|Location2.Y=891.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=806.89mil|Location2.Y=891.535mil|Absolute=True">Un-Routed Net Constraint: Net MB_DIR Between Pad MD1-4(-43.18mm,-14.37mm) on Multi-Layer And Pad P1-5(-40.64mm,-14.37mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=706.89mil|Location2.Y=791.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=706.89mil|Location2.Y=791.535mil|Absolute=True">Un-Routed Net Constraint: Net MB_PWM Between Pad MD1-5(-43.18mm,-16.91mm) on Multi-Layer And Pad P1-6(-40.64mm,-16.91mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=606.89mil|Location2.Y=691.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=327.986mil|Location1.Y=606.89mil|Location2.Y=691.535mil|Absolute=True">Un-Routed Net Constraint: Net Drive_EN Between Pad MD1-6(-43.18mm,-19.45mm) on Multi-Layer And Pad P1-7(-40.64mm,-19.45mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=474.049mil|Location1.Y=506.89mil|Location2.Y=868.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=474.049mil|Location1.Y=506.89mil|Location2.Y=868.307mil|Absolute=True">Un-Routed Net Constraint: Net CSA_Origin Between Pad MD1-7(-43.18mm,-21.99mm) on Multi-Layer And Pad U1-3(-36.68mm,-14.26mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=474.049mil|Location1.Y=406.89mil|Location2.Y=768.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=143.34mil|Location2.X=474.049mil|Location1.Y=406.89mil|Location2.Y=768.307mil|Absolute=True">Un-Routed Net Constraint: Net CSB_Origin Between Pad MD1-8(-43.18mm,-24.53mm) on Multi-Layer And Pad U1-5(-36.68mm,-16.8mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=1207.283mil|Location2.Y=1331.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1643.34mil|Location2.X=1827.986mil|Location1.Y=1207.283mil|Location2.Y=1331.299mil|Absolute=True">Un-Routed Net Constraint: Net A_12V Between Pad P2-2(-5.08mm,-4.21mm) on Multi-Layer And Pad MD1-9(-2.54mm,-4.21mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=243.34mil|Location2.X=474.049mil|Location1.Y=206.89mil|Location2.Y=918.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=243.34mil|Location2.X=474.049mil|Location1.Y=206.89mil|Location2.Y=918.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_CA Between Pad P3-1(-40.64mm,-29.61mm) on Multi-Layer And Pad U1-2(-36.68mm,-12.99mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=343.34mil|Location2.X=474.049mil|Location1.Y=206.89mil|Location2.Y=668.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=343.34mil|Location2.X=474.049mil|Location1.Y=206.89mil|Location2.Y=668.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_CB Between Pad P3-2(-38.1mm,-29.61mm) on Multi-Layer And Pad U1-7(-36.68mm,-19.34mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=443.34mil|Location2.X=708.301mil|Location1.Y=206.89mil|Location2.Y=968.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=443.34mil|Location2.X=708.301mil|Location1.Y=206.89mil|Location2.Y=968.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_VA Between Pad P3-3(-35.56mm,-29.61mm) on Multi-Layer And Pad U1-14(-31.23mm,-11.72mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=543.34mil|Location2.X=708.301mil|Location1.Y=206.89mil|Location2.Y=668.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=543.34mil|Location2.X=708.301mil|Location1.Y=206.89mil|Location2.Y=668.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_VB Between Pad P3-4(-33.02mm,-29.61mm) on Multi-Layer And Pad U1-8(-31.23mm,-19.34mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=716.024mil|Location2.Y=816.418mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=716.024mil|Location2.Y=816.418mil|Absolute=True">Un-Routed Net Constraint: Net NetR1_1 Between Pad R5-1(-27.403mm,-17.228mm) on Top Layer And Pad R1-1(-27.353mm,-15.778mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=830.197mil|Location2.Y=930.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=830.197mil|Location2.Y=930.591mil|Absolute=True">Un-Routed Net Constraint: Net NetR2_1 Between Pad R6-1(-27.403mm,-12.828mm) on Top Layer And Pad R2-1(-27.353mm,-14.278mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=832.395mil|Location1.Y=830.197mil|Location2.Y=875.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=832.395mil|Location1.Y=830.197mil|Location2.Y=875.473mil|Absolute=True">Un-Routed Net Constraint: Net NetR2_1 Between Pad U1-12(-31.23mm,-14.26mm) on Top Layer And Pad R2-1(-27.353mm,-14.278mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=601.851mil|Location2.Y=702.244mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=601.851mil|Location2.Y=702.244mil|Absolute=True">Un-Routed Net Constraint: Net NetR3_1 Between Pad R7-2(-27.403mm,-20.128mm) on Top Layer And Pad R3-1(-27.353mm,-18.678mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=832.395mil|Location1.Y=656.969mil|Location2.Y=718.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=832.395mil|Location1.Y=656.969mil|Location2.Y=718.307mil|Absolute=True">Un-Routed Net Constraint: Net NetR3_1 Between Pad U1-9(-31.23mm,-18.07mm) on Top Layer And Pad R3-1(-27.353mm,-18.678mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=889.482mil|Location1.Y=656.969mil|Location2.Y=757.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=889.482mil|Location1.Y=656.969mil|Location2.Y=757.362mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad R5-2(-25.953mm,-17.228mm) on Top Layer And Pad R3-2(-25.903mm,-18.678mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=944.37mil|Location2.Y=1044.764mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=785.151mil|Location2.X=832.395mil|Location1.Y=944.37mil|Location2.Y=1044.764mil|Absolute=True">Un-Routed Net Constraint: Net NetR4_1 Between Pad R8-2(-27.403mm,-9.928mm) on Top Layer And Pad R4-1(-27.353mm,-11.378mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=832.395mil|Location1.Y=888.779mil|Location2.Y=989.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=832.395mil|Location1.Y=888.779mil|Location2.Y=989.646mil|Absolute=True">Un-Routed Net Constraint: Net NetR4_1 Between Pad U1-13(-31.23mm,-12.99mm) on Top Layer And Pad R4-1(-27.353mm,-11.378mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=889.482mil|Location1.Y=889.252mil|Location2.Y=989.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=889.482mil|Location1.Y=889.252mil|Location2.Y=989.646mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad R6-2(-25.953mm,-12.828mm) on Top Layer And Pad R4-2(-25.903mm,-11.378mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=828.458mil|Location1.Y=716.024mil|Location2.Y=768.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=828.458mil|Location1.Y=716.024mil|Location2.Y=768.307mil|Absolute=True">Un-Routed Net Constraint: Net NetR1_1 Between Pad U1-10(-31.23mm,-16.8mm) on Top Layer And Pad R5-1(-27.403mm,-17.228mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=885.545mil|Location1.Y=716.024mil|Location2.Y=930.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=842.238mil|Location2.X=885.545mil|Location1.Y=716.024mil|Location2.Y=930.591mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad R5-2(-25.953mm,-17.228mm) on Top Layer And Pad R6-2(-25.953mm,-12.828mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=885.545mil|Location1.Y=716.024mil|Location2.Y=818.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=885.545mil|Location1.Y=716.024mil|Location2.Y=818.307mil|Absolute=True">Un-Routed Net Constraint: Net A_GND Between Pad U1-11(-31.23mm,-15.53mm) on Top Layer And Pad R5-2(-25.953mm,-17.228mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=885.545mil|Location1.Y=601.851mil|Location2.Y=668.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=885.545mil|Location1.Y=601.851mil|Location2.Y=668.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_VB Between Pad U1-8(-31.23mm,-19.34mm) on Top Layer And Pad R7-1(-25.953mm,-20.128mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=885.545mil|Location1.Y=938.779mil|Location2.Y=1044.764mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=623.655mil|Location2.X=885.545mil|Location1.Y=938.779mil|Location2.Y=1044.764mil|Absolute=True">Un-Routed Net Constraint: Net OPA_VA Between Pad U1-14(-31.23mm,-11.72mm) on Top Layer And Pad R8-1(-25.953mm,-9.928mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=389.403mil|Location2.X=474.049mil|Location1.Y=888.779mil|Location2.Y=968.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=389.403mil|Location2.X=474.049mil|Location1.Y=888.779mil|Location2.Y=968.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_CA Between Pad U1-2(-36.68mm,-12.99mm) on Top Layer And Pad U1-1(-36.68mm,-11.72mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=389.403mil|Location2.X=474.049mil|Location1.Y=638.779mil|Location2.Y=718.307mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=389.403mil|Location2.X=474.049mil|Location1.Y=638.779mil|Location2.Y=718.307mil|Absolute=True">Un-Routed Net Constraint: Net OPA_CB Between Pad U1-7(-36.68mm,-19.34mm) on Top Layer And Pad U1-6(-36.68mm,-18.07mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
