@@ -99,6 +99,124 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LVHBDVYB
 
+[Document4]
+DocumentPath=..\Libraries\OWMR.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=..\Libraries\OWMR.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for OWMR\Folder Structure\BOM\Bill of Materials-OWMR.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Pick Place\Pick Place for Top.csv
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for OWMR\Folder Structure\Gerber\Top.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for OWMR\Folder Structure\ExportSTEP\Top.step
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for OWMR\Folder Structure\NC Drill\Top.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
