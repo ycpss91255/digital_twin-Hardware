@@ -1,13 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [MotorCtrl.PcbDoc]
-   Generated File[MotorCtrl.TXT]
-   Generated File[MotorCtrl.DRL]
-   Generated File[MotorCtrl.LDP]
-   Generated File[MotorCtrl.DRR]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [MotorCtrl.PcbDoc]
+   Generated File[MotorCtrl.step]
 
 
-Files Generated   : 4
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At ¤W¤È 12:26:15 On 2022/6/10
+Finished Output Generation At ¤U¤È 11:42:11 On 2022/6/10

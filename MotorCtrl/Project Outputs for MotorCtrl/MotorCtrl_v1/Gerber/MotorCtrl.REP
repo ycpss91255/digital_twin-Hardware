@@ -2,54 +2,10 @@
 FileName = MotorCtrl.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : MotorCtrl.GTL
+Generating : Bottom Paste
+      File : MotorCtrl.GBP
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D35
-    D36
-    D37
-    D38
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : MotorCtrl.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : MotorCtrl.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : MotorCtrl.GBL
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -57,10 +13,6 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D35
-    D36
-    D37
-    D38
 *************************************************************
 
 *************************************************************
@@ -79,6 +31,80 @@ Used DCodes :
     D32
     D33
     D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : MotorCtrl.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : MotorCtrl.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : MotorCtrl.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : MotorCtrl.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
 *************************************************************
 
 *************************************************************
@@ -105,20 +131,8 @@ Used DCodes :
     D32
     D33
     D34
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : MotorCtrl.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
+    D35
+    D36
 *************************************************************
 
 *************************************************************
@@ -168,8 +182,8 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D39
-    D40
+    D47
+    D48
 *************************************************************
 
 *************************************************************
@@ -182,6 +196,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D39
+    D48
 *************************************************************
 
