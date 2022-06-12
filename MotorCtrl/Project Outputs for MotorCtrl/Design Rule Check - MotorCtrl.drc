@@ -1,9 +1,12 @@
 Protel Design System Design Rule Check
-PCB File : D:\source_code\digital_twin-hardware\MotorCtrl\MotorCtrl.PcbDoc
-Date     : 2022/6/10
-Time     : ¤U¤È 11:19:23
+PCB File : E:\source_code\digital_twin-Hardware\MotorCtrl\MotorCtrl.PcbDoc
+Date     : 2022/6/12
+Time     : ¤U¤È 06:37:13
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (IsStitchingVia and InNet('A_GND')),((IsVia and (Not IsStitchingVia)) Or IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -58,4 +61,4 @@ Rule Violations :0
 Violations Detected : 0
 Waived Violations : 0
 PCB Health Issues : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
