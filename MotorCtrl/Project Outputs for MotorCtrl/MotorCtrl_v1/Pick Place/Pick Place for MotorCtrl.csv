@@ -1,39 +1,36 @@
-Altium Designer Pick and Place Locations,,,,,,,
-E:\source_code\digital_twin-Hardware\MotorCtrl\Project Outputs for MotorCtrl\MotorCtrl_v1\Pick Place\Pick Place for MotorCtrl.csv,,,,,,,
-,,,,,,,
-========================================================================================================================,,,,,,,
-File Design Information:,,,,,,,
-,,,,,,,
-Date:       12/06/22,,,,,,,
-Time:       18:37,,,,,,,
-Revision:   0ce6c328e2441817a437c4ccdfb043a14d3132fb,,,,,,,
-Variant:    No variations,,,,,,,
-Units used: mm,,,,,,,
-,,,,,,,
-Designator,Comment,Layer,Footprint,Center-X(mm),Center-Y(mm),Rotation,Description
-U1,OPA4277UA/2K5,TopLayer,OPA4277UA/2K5,9.8,3.95,0,"790£gA 1MHz 4 4V~36V,¡Ó2V~18V 0.8 V/us General Purpose SOIC-14  Precision OpAmps ROHS"
-C1,220uF,TopLayer,VZT221M1ETR-0607,10.623,15.202,0,"-45¢J~+105¢J 2000hrs@105¢J 220uF 7.7mm 25V 6.3mm ¡Ó20% SMD,6.3x7.7mm  Aluminum Electrolytic Capacitors - SMD ROHS"
-C2,0.1uF,TopLayer,CL10B104KA8NNNC,9.85,10.345,180,25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-C3,220uF,TopLayer,VZT221M1ETR-0607,29.775,15.295,180,"-45¢J~+105¢J 2000hrs@105¢J 220uF 7.7mm 25V 6.3mm ¡Ó20% SMD,6.3x7.7mm  Aluminum Electrolytic Capacitors - SMD ROHS"
-C4,0.1uF,TopLayer,CL10B104KA8NNNC,35.65,15.92,270,25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-C5,0.1uF,TopLayer,CL10B104KA8NNNC,33.347,9.402,90,25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-C6,0.1uF,TopLayer,CL10B104KA8NNNC,35.5675,6.3475,270,25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-C7,0.1uF,TopLayer,CL10B104KA8NNNC,33.422,0.01,90,25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-C8,0.1uF,TopLayer,CL10B104KA8NNNC,35.53,-3.08,270,25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
-P1,Header 7,BottomLayer,KH-2.54PH180-1X7P-L11.5,2.54,7.62,270,"KH-2.54PH180-1X7P-L11.5
-3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 8 3mm 2.54mm Black 1x7P Plugin,P=2.54mm  Pin Headers ROHS"
-P2,Header 12,BottomLayer,KH-2.54PH180-1X12P-L11.5_(PAD_LINKED),38.1,3.81,270,"KH-2.54PH180-1X12P-L11.5
-3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 12 3mm 2.54mm Black 1x12P Plugin,P=2.54mm  Pin Headers ROHS"
-P3,Header 4,BottomLayer,KH-2.54PH180-1X4P-L11.5,6.35,-10.16,0,"KH-2.54PH180-1X4P-L11.5
-3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 4 3mm 2.54mm Black 1x4P Plugin,P=2.54mm  Pin Headers ROHS"
-R1,12k,TopLayer,PTFR0603B12K0N9,17.177,3.672,0,Resistor
-R2,12k,TopLayer,PTFR0603B12K0N9,17.177,5.172,0,Resistor
-R3,12k,TopLayer,PTFR0603B12K0N9,17.177,0.772,0,Resistor
-R4,12k,TopLayer,PTFR0603B12K0N9,17.177,8.072,0,Resistor
-R5,3.3k,TopLayer,0603WAF3301T5E,17.127,2.222,0,Resistor
-R6,3.3k,TopLayer,0603WAF3301T5E,17.127,6.622,0,Resistor
-R7,3.3k,TopLayer,0603WAF3301T5E,17.127,-0.678,180,Resistor
-R8,3.3k,TopLayer,0603WAF3301T5E,17.127,9.522,180,Resistor
-MD1,MD02,TopLayer,MD02,20.32,3.81,0,MD02 17A 2 cheel motor driver
-DU1,MBRD1035CTLT4G,TopLayer,MBRD1035CTLT4G,26.82,7.87,90,35V 470mV@5A 5A TO-252-2(DPAK) Schottky Barrier Diodes (SBD) ROHS
-DU2,MBRD1035CTLT4G,TopLayer,MBRD1035CTLT4G,26.82,-1.53,90,35V 470mV@5A 5A TO-252-2(DPAK) Schottky Barrier Diodes (SBD) ROHS
+Altium Designer Pick and Place Locations
+D:\source_code\digital_twin-hardware\MotorCtrl\Project Outputs for MotorCtrl\MotorCtrl_v1\Pick Place\Pick Place for MotorCtrl.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       22/06/22
+Time:       21:52
+Revision:   1ee0e78ac2cb45634791bc654e75bbfdf72d9217
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"C7","0.1uF","TopLayer","1210B104K500NT","0.0000","-11.4250","90","50V 100nF X7R ¡Ó10% 1210  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"DU2","MBRD1035CTLT4G","TopLayer","MBRD1035CTLT4G","-7.2250","-15.7100","180","35V 470mV@5A 5A TO-252-2(DPAK) Schottky Barrier Diodes (SBD) ROHS"
+"DU1","MBRD1035CTLT4G","TopLayer","MBRD1035CTLT4G","-7.2250","-5.0400","180","35V 470mV@5A 5A TO-252-2(DPAK) Schottky Barrier Diodes (SBD) ROHS"
+"U1","OPA4277UA/2K5","TopLayer","OPA4277UA/2K5","-25.0175","-8.8975","0","790£gA 1MHz 4 4V~36V,¡Ó2V~18V 0.8 V/us General Purpose SOIC-14  Precision OpAmps ROHS"
+"C1","220uF","TopLayer","VZT221M1ETR-0607","-24.1945","2.3545","0","-45¢J~+105¢J 2000hrs@105¢J 220uF 7.7mm 25V 6.3mm ¡Ó20% SMD,6.3x7.7mm  Aluminum Electrolytic Capacitors - SMD ROHS"
+"C2","0.1uF","TopLayer","CL10B104KA8NNNC","-24.9675","-2.5025","180","25V 100nF X7R ¡Ó10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"C3","220uF","TopLayer","VZT221M1ETR-0607","-7.7500","2.7500","180","-45¢J~+105¢J 2000hrs@105¢J 220uF 7.7mm 25V 6.3mm ¡Ó20% SMD,6.3x7.7mm  Aluminum Electrolytic Capacitors - SMD ROHS"
+"C4","0.1uF","TopLayer","1210B104K500NT","0.0000","3.6750","270","50V 100nF X7R ¡Ó10% 1210  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"C5","0.1uF","TopLayer","1210B104K500NT","0.0000","-1.3250","90","50V 100nF X7R ¡Ó10% 1210  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"C6","0.1uF","TopLayer","1210B104K500NT","0.0000","-6.2500","90","50V 100nF X7R ¡Ó10% 1210  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"C8","0.1uF","TopLayer","1210B104K500NT","0.0000","-16.6750","90","50V 100nF X7R ¡Ó10% 1210  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"P1","Header 7","BottomLayer","KH-2.54PH180-1X7P-L11.5","-32.2775","-5.2275","270","3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 7 3mm 2.54mm Black 1x7P Plugin,P=2.54mm  Pin Headers ROHS"
+"P2","Header 12","BottomLayer","KH-2.54PH180-1X12P-L11.5_(PAD_LINKED)","3.2825","-9.0375","270","3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 12 3mm 2.54mm Black 1x12P Plugin,P=2.54mm  Pin Headers ROHS"
+"P3","Header 4","BottomLayer","KH-2.54PH180-1X4P-L11.5","-28.4675","-23.0075","0","3A Straight Square Pins 2.5mm 6mm -40¢J~+105¢J 1 4 3mm 2.54mm Black 1x4P Plugin,P=2.54mm  Pin Headers ROHS"
+"R1","12k","TopLayer","PTFR0603B12K0N9","-17.6405","-9.1755","0","Resistor"
+"R2","12k","TopLayer","PTFR0603B12K0N9","-17.6405","-7.6755","0","Resistor"
+"R3","12k","TopLayer","PTFR0603B12K0N9","-17.6405","-12.0755","0","Resistor"
+"R4","12k","TopLayer","PTFR0603B12K0N9","-17.6405","-4.7755","0","Resistor"
+"R5","3.3k","TopLayer","0603WAF3301T5E","-17.6905","-10.6255","0","Resistor"
+"R6","3.3k","TopLayer","0603WAF3301T5E","-17.6905","-6.2255","0","Resistor"
+"R7","3.3k","TopLayer","0603WAF3301T5E","-17.6905","-13.5255","180","Resistor"
+"R8","3.3k","TopLayer","0603WAF3301T5E","-17.6905","-3.3255","180","Resistor"
+"MD1","MD02","TopLayer","MD02","-14.4975","-9.0375","0","MD02 17A 2 cheel motor driver"

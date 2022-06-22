@@ -1,7 +1,8 @@
 Designator,Comment,Description,Footprint,Quantity
 
 "C1, C3","220uF","-45ขJ~+105ขJ 2000hrs@105ขJ 220uF 7.7mm 25V 6.3mm กำ20% SMD,6.3x7.7mm  Aluminum Electrolytic Capacitors - SMD ROHS","VZT221M1ETR-0607","2"
-"C2, C4, C5, C6, C7, C8","0.1uF","25V 100nF X7R กำ10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS","CL10B104KA8NNNC","6"
+"C2","0.1uF","25V 100nF X7R กำ10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS","CL10B104KA8NNNC","1"
+"C4, C5, C6, C7, C8","0.1uF","50V 100nF X7R กำ10% 1210  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS","1210B104K500NT","5"
 "DU1, DU2","MBRD1035CTLT4G","35V 470mV@5A 5A TO-252-2(DPAK) Schottky Barrier Diodes (SBD) ROHS","MBRD1035CTLT4G","2"
 "MD1","MD02","MD02 17A 2 cheel motor driver","MD02","1"
 "P1","Header 7","3A Straight Square Pins 2.5mm 6mm -40ขJ~+105ขJ 1 7 3mm 2.54mm Black 1x7P Plugin,P=2.54mm  Pin Headers ROHS","KH-2.54PH180-1X7P-L11.5","1"
