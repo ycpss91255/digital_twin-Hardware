@@ -2,25 +2,90 @@
 FileName = MotorCtrl.GBR
 AutoAperture = True
 *************************************************************
-Generating : Keep-Out Layer
-      File : MotorCtrl.GKO
+Generating : Top Layer
+      File : MotorCtrl.GTL
 
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D11
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : MotorCtrl.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : MotorCtrl.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
     D14
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : MotorCtrl.GBO
+Generating : Top Paste
+      File : MotorCtrl.GTP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
 *************************************************************
 
 *************************************************************
@@ -35,27 +100,29 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D20
+    D19
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : MotorCtrl.GBS
+Generating : Bottom Overlay
+      File : MotorCtrl.GBO
 
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D28
-    D31
-    D32
-    D33
-    D34
-    D35
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : MotorCtrl.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D14
 *************************************************************
 
 *************************************************************
@@ -86,45 +153,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : MotorCtrl.GTP
+Generating : Bottom Solder
+      File : MotorCtrl.GBS
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : MotorCtrl.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : MotorCtrl.GBL
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Bottom Layer
 
@@ -132,44 +164,12 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D20
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : MotorCtrl.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
+    D27
+    D31
+    D32
+    D33
+    D34
+    D35
 *************************************************************
 
 *************************************************************

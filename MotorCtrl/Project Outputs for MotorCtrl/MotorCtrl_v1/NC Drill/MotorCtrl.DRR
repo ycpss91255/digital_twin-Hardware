@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: MotorCtrl.PcbDoc   2022/6/22  ¤U¤È 09:52:11
+NCDrill File Report For: MotorCtrl.PcbDoc   2022/6/28  ¤U¤È 07:33:52
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,10 +8,10 @@ EIA File   : MotorCtrl.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             270       PTH        576.72mm (22.71inch)
+T1      0.3mm (12mil)                                             Round             258       PTH        522.48mm (20.57inch)
 T2      1mm (39mil)                                               Round             20        PTH        91.44mm (3.60inch)
-T3      1.02mm (40mil)                                            Round             23        PTH        101.60mm (4.00inch)
+T3      1.02mm (40mil)                                            Round             23        PTH        124.46mm (4.90inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              313
+Totals                                                                              301
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
