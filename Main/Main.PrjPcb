@@ -117,23 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OBCQKTAR
 
 [Document5]
-DocumentPath=Main.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ADQIGMRW
-
-[Document6]
 DocumentPath=..\Libraries\OWMR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LXYBIESN
 
-[Document7]
+[Document6]
 DocumentPath=..\Libraries\OWMR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -166,6 +149,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJGTOVQE
+
+[Document7]
+DocumentPath=Main.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IBYTLOMC
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Main\Design Rule Check - Main.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
