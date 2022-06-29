@@ -147,90 +147,102 @@ Variation4=Designator=C5|UniqueId=\IGVXFSPE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\BOM\Bill of Materials-MotorCtrl.csv
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\BOM\Bill of Materials-MotorCtrl(Not Cap Filter).csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for MotorCtrl\Design Rule Check - MotorCtrl.html
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\BOM\Bill of Materials-MotorCtrl.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.DRL
+DocumentPath=Project Outputs for MotorCtrl\Design Rule Check - MotorCtrl.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.DRR
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\ExportSTEP\MotorCtrl(Not Cap Filter).step
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.EXTREP
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBL
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBO
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBP
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBS
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GD1
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GG1
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GKO
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTL
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTO
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTP
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTS
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.LDP
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.REP
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.RUL
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\ExportSTEP\MotorCtrl.step
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.TXT
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Gerber\MotorCtrl.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\ExportSTEP\MotorCtrl.step
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\NC Drill\MotorCtrl.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Pick Place\Pick Place for MotorCtrl(Not Cap Filter).csv
+DItemRevisionGUID=
+
+[GeneratedDocument25]
 DocumentPath=Project Outputs for MotorCtrl\MotorCtrl_v1\Pick Place\Pick Place for MotorCtrl.csv
 DItemRevisionGUID=
 
