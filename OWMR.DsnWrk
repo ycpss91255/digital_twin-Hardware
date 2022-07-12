@@ -6,3 +6,11 @@ ProjectPath=Main\Main.PrjPcb
 ProjectPath=MotorCtrl\MotorCtrl.PrjPcb
 [Project3]
 ProjectPath=Simulation\Simulation.PrjPcb
+[Project4]
+ProjectPath=C:\Users\ycpss\Downloads\der-672_gerber\Imported DER-672 Rev B.PrjPcb\DER-672 Rev B.PrjPcb
+[Project5]
+ProjectPath=Libraries\ALL\ALL.LibPkg
+[Project6]
+ProjectPath=Libraries\Universal Device\Universal Device.LibPkg
+[Project7]
+ProjectPath=Libraries\Universal Header\Universal Header.LibPkg
